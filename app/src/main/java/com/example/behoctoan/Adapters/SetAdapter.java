@@ -1,6 +1,7 @@
 package com.example.behoctoan.Adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.behoctoan.Models.SetModel;
 import com.example.behoctoan.R;
+import com.example.behoctoan.activities.QuestionActivity;
 import com.example.behoctoan.databinding.ItemSetsBinding;
 
 import java.util.ArrayList;
@@ -36,6 +38,15 @@ public class SetAdapter extends RecyclerView.Adapter<SetAdapter.viewHolder>{
         final SetModel model = list.get(position);
 
         holder.binding.setName.setText(model.getSetName());
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, QuestionActivity.class);
+                intent.putExtra("set", model.getSetName());
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override
