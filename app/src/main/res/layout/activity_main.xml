@@ -32,12 +32,13 @@
             app:rowCount="3">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/class_1"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 app:cardCornerRadius="10dp"
-                app:layout_gravity="center"
-                app:cardElevation="10dp">
+                app:cardElevation="10dp"
+                app:layout_gravity="center">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -47,8 +48,8 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
                         app:srcCompat="@drawable/one" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -69,8 +70,8 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
                         app:srcCompat="@drawable/two" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -91,8 +92,8 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
                         app:srcCompat="@drawable/three" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
