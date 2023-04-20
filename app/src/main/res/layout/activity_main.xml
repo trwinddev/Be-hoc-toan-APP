@@ -33,9 +33,9 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/class_1"
-                android:layout_width="150dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="30dp"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="10dp"
                 app:layout_gravity="center">
@@ -49,15 +49,15 @@
 
                     <ImageView
                         android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        app:srcCompat="@drawable/one" />
+                        android:layout_height="170dp"
+                        app:srcCompat="@drawable/class1" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="20dp"
                 app:cardCornerRadius="10dp"
                 app:layout_gravity="center"
                 app:cardElevation="10dp">
@@ -71,15 +71,15 @@
 
                     <ImageView
                         android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        app:srcCompat="@drawable/two" />
+                        android:layout_height="170dp"
+                        app:srcCompat="@drawable/class2" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="30dp"
                 app:cardCornerRadius="10dp"
                 app:layout_gravity="center"
                 app:cardElevation="10dp">
@@ -93,8 +93,8 @@
 
                     <ImageView
                         android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        app:srcCompat="@drawable/three" />
+                        android:layout_height="170dp"
+                        app:srcCompat="@drawable/class3" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
         </androidx.gridlayout.widget.GridLayout>
@@ -105,7 +105,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Bé học lớp mấy ?"
+        android:text="BÉ HỌC LỚP ?"
         android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"
