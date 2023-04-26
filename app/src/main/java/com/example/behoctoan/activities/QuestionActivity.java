@@ -4,10 +4,12 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.animation.Animator;
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
+import android.view.WindowManager;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.Button;
 import android.widget.TextView;
@@ -35,6 +37,10 @@ public class QuestionActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         getSupportActionBar().hide();
+
+        resetTimer();
+        timer.start();
+
         String setName = getIntent().getStringExtra("set");
 
         if(setName.equals("BÀI LUYỆN TẬP 1")) {
@@ -57,6 +63,11 @@ public class QuestionActivity extends AppCompatActivity {
         binding.btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(timer != null) {
+                    timer.cancel();
+                }
+                timer.start();
+
                 binding.btnNext.setEnabled(false);
                 binding.btnNext.setAlpha((float) 0.3);
                 enableOption(true);
@@ -75,6 +86,32 @@ public class QuestionActivity extends AppCompatActivity {
                 playAnimation(binding.question, 0, list.get(position).getQuestion());
             }
         });
+    }
+
+    private void resetTimer() {
+        timer = new CountDownTimer(3000, 1000) {
+            @Override
+            public void onTick(long l) {
+                binding.timer.setText(String.valueOf(l/1000));
+            }
+
+            @Override
+            public void onFinish() {
+                Dialog dialog = new Dialog(QuestionActivity.this);
+                dialog.getWindow().addFlags(WindowManager.LayoutParams.FLAG_BLUR_BEHIND);
+                dialog.setCancelable(false);
+                dialog.setContentView(R.layout.timeout_dialog);
+                dialog.findViewById(R.id.tryAgain).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent = new Intent(QuestionActivity.this, SetsActivity.class);
+                        startActivity(intent);
+                        finish();
+                    }
+                });
+                dialog.show();
+            }
+        };
     }
 
     private void playAnimation(View view, int value, String data) {
@@ -138,6 +175,10 @@ public class QuestionActivity extends AppCompatActivity {
     }
 
     private void checkAnswer(Button selectedOption) {
+        if(timer != null) {
+            timer.cancel();
+        }
+
         binding.btnNext.setEnabled(true);
         binding.btnNext.setAlpha(1);
 
