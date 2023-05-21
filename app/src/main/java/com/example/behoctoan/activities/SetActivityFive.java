@@ -8,19 +8,20 @@ import android.os.Bundle;
 import com.example.behoctoan.Adapters.SetAdapter;
 import com.example.behoctoan.Models.SetModel;
 import com.example.behoctoan.R;
+import com.example.behoctoan.databinding.ActivitySetFiveBinding;
 import com.example.behoctoan.databinding.ActivitySetsBinding;
 
 import java.util.ArrayList;
 
 public class SetActivityFive extends AppCompatActivity {
 
-    ActivitySetsBinding binding;
+    ActivitySetFiveBinding binding;
     ArrayList<SetModel>list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivitySetsBinding.inflate(getLayoutInflater());
+        binding = ActivitySetFiveBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         getSupportActionBar().hide();
 
@@ -39,8 +40,6 @@ public class SetActivityFive extends AppCompatActivity {
         list.add(new SetModel("BÀI LUYỆN TẬP 8"));
         list.add(new SetModel("BÀI LUYỆN TẬP 9"));
         list.add(new SetModel("BÀI LUYỆN TẬP 10"));
-
-
 
         SetAdapter adapter = new SetAdapter(this, list);
         binding.setsRecy.setAdapter(adapter);

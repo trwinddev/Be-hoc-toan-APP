@@ -6,21 +6,22 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import android.os.Bundle;
 
 import com.example.behoctoan.Adapters.SetAdapter;
+import com.example.behoctoan.Adapters.SetAdapterTwo;
 import com.example.behoctoan.Models.SetModel;
 import com.example.behoctoan.R;
-import com.example.behoctoan.databinding.ActivitySetsBinding;
+import com.example.behoctoan.databinding.ActivitySetsTwoBinding;
 
 import java.util.ArrayList;
 
-public class SetsActivityTwo extends AppCompatActivity {
+public class SetsTwoActivity extends AppCompatActivity {
 
-    ActivitySetsBinding binding;
+    ActivitySetsTwoBinding binding;
     ArrayList<SetModel>list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivitySetsBinding.inflate(getLayoutInflater());
+        binding = ActivitySetsTwoBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         getSupportActionBar().hide();
 
@@ -42,7 +43,8 @@ public class SetsActivityTwo extends AppCompatActivity {
 
 
 
-        SetAdapter adapter = new SetAdapter(this, list);
+        SetAdapterTwo adapter = new SetAdapterTwo(this, list);
         binding.setsRecy.setAdapter(adapter);
+
     }
 }

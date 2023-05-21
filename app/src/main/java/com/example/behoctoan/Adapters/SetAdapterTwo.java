@@ -12,16 +12,17 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.behoctoan.Models.SetModel;
 import com.example.behoctoan.R;
 import com.example.behoctoan.activities.QuestionActivity;
+import com.example.behoctoan.activities.QuestionTwoActivity;
 import com.example.behoctoan.databinding.ItemSetsBinding;
 
 import java.util.ArrayList;
 
-public class SetAdapter extends RecyclerView.Adapter<SetAdapter.viewHolder>{
+public class SetAdapterTwo extends RecyclerView.Adapter<SetAdapterTwo.viewHolder>{
 
     Context context;
     ArrayList<SetModel> list;
 
-    public SetAdapter(Context context, ArrayList<SetModel> list) {
+    public SetAdapterTwo(Context context, ArrayList<SetModel> list) {
         this.context = context;
         this.list = list;
     }
@@ -42,7 +43,7 @@ public class SetAdapter extends RecyclerView.Adapter<SetAdapter.viewHolder>{
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, QuestionActivity.class);
+                Intent intent = new Intent(context, QuestionTwoActivity.class);
                 intent.putExtra("set", model.getSetName());
                 context.startActivity(intent);
             }

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.SetsActivityTwo">
+    android:background="@color/category"
+    tools:context=".activities.SetsTwoActivity">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
@@ -143,5 +144,4 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

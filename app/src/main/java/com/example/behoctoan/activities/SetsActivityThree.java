@@ -9,18 +9,19 @@ import com.example.behoctoan.Adapters.SetAdapter;
 import com.example.behoctoan.Models.SetModel;
 import com.example.behoctoan.R;
 import com.example.behoctoan.databinding.ActivitySetsBinding;
+import com.example.behoctoan.databinding.ActivitySetsThreeBinding;
 
 import java.util.ArrayList;
 
 public class SetsActivityThree extends AppCompatActivity {
 
-    ActivitySetsBinding binding;
+    ActivitySetsThreeBinding binding;
     ArrayList<SetModel>list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivitySetsBinding.inflate(getLayoutInflater());
+        binding = ActivitySetsThreeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         getSupportActionBar().hide();
 

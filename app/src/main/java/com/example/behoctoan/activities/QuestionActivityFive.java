@@ -16,24 +16,23 @@ import android.widget.TextView;
 
 import com.example.behoctoan.Models.QuestionModel;
 import com.example.behoctoan.R;
-import com.example.behoctoan.databinding.ActivityQuestionBinding;
+import com.example.behoctoan.databinding.ActivityQuestionFiveBinding;
 
 import java.util.ArrayList;
 
 public class QuestionActivityFive extends AppCompatActivity {
 
-    ArrayList<QuestionModel> list = new ArrayList<>();
+    private ArrayList<QuestionModel> list = new ArrayList<>();
     private int count = 0;
     private int position = 0;
     private int score = 0;
-    CountDownTimer timer;
-
-    ActivityQuestionBinding binding;
+    private CountDownTimer timer;
+    private ActivityQuestionFiveBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityQuestionBinding.inflate(getLayoutInflater());
+        binding = ActivityQuestionFiveBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         getSupportActionBar().hide();
@@ -43,30 +42,12 @@ public class QuestionActivityFive extends AppCompatActivity {
 
         String setName = getIntent().getStringExtra("set");
 
-        if(setName.equals("BÀI LUYỆN TẬP 1")) {
+        if (setName != null && setName.equals("BÀI LUYỆN TẬP 1")) {
             setOne();
-        } else if (setName.equals("BÀI LUYỆN TẬP 2")) {
-            setTwo();
-        } else if (setName.equals("BÀI LUYỆN TẬP 3")) {
-            setThree();
-        } else if (setName.equals("BÀI LUYỆN TẬP 4")) {
-            setFour();
-        } else if (setName.equals("BÀI LUYỆN TẬP 5")) {
-            setFive();
-        } else if (setName.equals("BÀI LUYỆN TẬP 6")) {
-            setSix();
-        } else if (setName.equals("BÀI LUYỆN TẬP 7")) {
-            setSeven();
-        } else if (setName.equals("BÀI LUYỆN TẬP 8")) {
-            setEight();
-        } else if (setName.equals("BÀI LUYỆN TẬP 9")) {
-            setNine();
-        } else if (setName.equals("BÀI LUYỆN TẬP 10")) {
-            setTen();
         }
 
-        for(int i=0; i<4; i++) {
-            binding.optionContainer.getChildAt(i).setOnClickListener(new View.OnClickListener(){
+        for (int i = 0; i < 4; i++) {
+            binding.optionContainer.getChildAt(i).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     checkAnswer((Button) view);
@@ -79,7 +60,7 @@ public class QuestionActivityFive extends AppCompatActivity {
         binding.btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(timer != null) {
+                if (timer != null) {
                     timer.cancel();
                 }
                 timer.start();
@@ -89,11 +70,11 @@ public class QuestionActivityFive extends AppCompatActivity {
                 enableOption(true);
                 position++;
 
-                if(position == list.size()) {
+                if (position == list.size()) {
                     Intent intent = new Intent(QuestionActivityFive.this, ScoreActivity.class);
                     intent.putExtra("score", score);
                     intent.putExtra("total", list.size());
-                    startActivity(intent);;
+                    startActivity(intent);
                     finish();
                     return;
                 }
@@ -108,7 +89,7 @@ public class QuestionActivityFive extends AppCompatActivity {
         timer = new CountDownTimer(30000, 1000) {
             @Override
             public void onTick(long l) {
-                binding.timer.setText(String.valueOf(l/1000));
+                binding.timer.setText(String.valueOf(l / 1000));
             }
 
             @Override
@@ -120,7 +101,7 @@ public class QuestionActivityFive extends AppCompatActivity {
                 dialog.findViewById(R.id.tryAgain).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent intent = new Intent(QuestionActivityFive.this, SetsActivity.class);
+                        Intent intent = new Intent(QuestionActivityFive.this, SetActivityFive.class);
                         startActivity(intent);
                         finish();
                     }
@@ -130,21 +111,21 @@ public class QuestionActivityFive extends AppCompatActivity {
         };
     }
 
-    private void playAnimation(View view, int value, String data) {
+    private void playAnimation(final View view, final int value, final String data) {
         view.animate().alpha(value).scaleX(value).scaleY(value).setDuration(500).setStartDelay(100)
                 .setInterpolator(new DecelerateInterpolator()).setListener(new Animator.AnimatorListener() {
                     @Override
-                    public void onAnimationStart(@NonNull Animator animator) {
-                        if(value==0 && count < 4) {
+                    public void onAnimationStart(Animator animator) {
+                        if (value == 0 && count < 4) {
                             String option = "";
 
-                            if(count==0) {
+                            if (count == 0) {
                                 option = list.get(position).getOptionA();
-                            }else if(count==1) {
+                            } else if (count == 1) {
                                 option = list.get(position).getOptionB();
-                            }else if(count==2) {
+                            } else if (count == 2) {
                                 option = list.get(position).getOptionC();
-                            }else if(count==3) {
+                            } else if (count == 3) {
                                 option = list.get(position).getOptionD();
                             }
 
@@ -153,14 +134,15 @@ public class QuestionActivityFive extends AppCompatActivity {
                         }
                     }
 
+
                     @Override
-                    public void onAnimationEnd(@NonNull Animator animation) {
-                        if(value==0) {
+                    public void onAnimationEnd(Animator animator) {
+                        if (value == 0) {
                             try {
-                                ((TextView)view).setText(data);
-                                binding.totalQuestion.setText(position+1+"/"+list.size());
-                            }catch (Exception e) {
-                                ((Button)view).setText(data);
+                                ((TextView) view).setText(data);
+                                binding.totalQuestion.setText(position + 1 + "/" + list.size());
+                            } catch (Exception e) {
+                                ((Button) view).setText(data);
                             }
 
                             view.setTag(data);
@@ -184,25 +166,24 @@ public class QuestionActivityFive extends AppCompatActivity {
         for (int i = 0; i < 4; i++) {
             binding.optionContainer.getChildAt(i).setEnabled(enable);
 
-            if(enable) {
+            if (enable) {
                 binding.optionContainer.getChildAt(i).setBackgroundResource(R.drawable.btn_opt);
             }
         }
     }
 
     private void checkAnswer(Button selectedOption) {
-        if(timer != null) {
+        if (timer != null) {
             timer.cancel();
         }
 
         binding.btnNext.setEnabled(true);
         binding.btnNext.setAlpha(1);
 
-        if(selectedOption.getText().toString().equals(list.get(position).getCorrectAnswer())) {
+        if (selectedOption.getText().toString().equals(list.get(position).getCorrectAnswer())) {
             score++;
             selectedOption.setBackgroundResource(R.drawable.right_answ);
-        }
-        else {
+        } else {
             selectedOption.setBackgroundResource(R.drawable.wrong_answ);
             Button correctOption = (Button) binding.optionContainer.findViewWithTag(list.get(position).getCorrectAnswer());
             correctOption.setBackgroundResource(R.drawable.right_answ);
@@ -210,124 +191,15 @@ public class QuestionActivityFive extends AppCompatActivity {
     }
 
     private void setOne() {
-        list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));
-        list.add(new QuestionModel("Số cần điền vào: ... – 2 = 3 là:", "A. 1", "B. 5", "C. 9", "D. 4", "B. 5"));
-        list.add(new QuestionModel("Sắp xếp các số: 0, 5, 2, 10 theo thứ tự từ bé đến lớn:", "A. 10, 5, 2, 0", "B. 2 , 0 , 10 , 5", "C. 5, 2, 10, 0", "D. 0 , 2 , 5 , 10", "D. 0 , 2 , 5 , 10"));
-        list.add(new QuestionModel("Số cần điền vào: 7 + 1 > ... + 2 là:", "A. 7", "B. 5", "C. 8", "D. 10", "B. 5"));
-        list.add(new QuestionModel("Số lớn nhất có một chữ số là:", "A. 0", "B. 8", "C. 9", "D. 10", "C. 9"));
-        list.add(new QuestionModel("Số bé nhất trong các số: 8, 3, 10, 6 là:", "A. 8", "B. 3", "C. 10", "D. 6", "B. 3"));
-        list.add(new QuestionModel("Kết quả của phép tính: 10 – 8 + 3 là:", "A. 7", "A. 1", "C. 8", "D. 5", "D. 5"));
-        list.add(new QuestionModel("Số bé nhất có một chữ số là:", "A. 1", "B. 0", "C. 2", "D. 9", "B. 0"));
-        list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 7", "B. 4", "C. 9", "D. 1", "C. 9"));
-        list.add(new QuestionModel("Phép tính nào sai?", "A. 7 – 5 = 2", "B. 4 + 4 = 9", "3 + 3 = 6", "C. 10 – 9 = 1", "B. 4 + 4 = 9"));
+        list.add(new QuestionModel("hi", "A. 1", "B. 2", "C. 3", "D. 4", "D. 4"));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
     }
-    private void setTwo() {
-        list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));
-        list.add(new QuestionModel("Số cần điền vào: ... – 2 = 3 là:", "A. 1", "B. 5", "C. 9", "D. 4", "B. 5"));
-        list.add(new QuestionModel("Sắp xếp các số: 0, 5, 2, 10 theo thứ tự từ bé đến lớn:", "A. 10, 5, 2, 0", "B. 2 , 0 , 10 , 5", "C. 5, 2, 10, 0", "D. 0 , 2 , 5 , 10", "D. 0 , 2 , 5 , 10"));
-        list.add(new QuestionModel("Số cần điền vào: 7 + 1 > ... + 2 là:", "A. 7", "B. 5", "C. 8", "D. 10", "B. 5"));
-        list.add(new QuestionModel("Số lớn nhất có một chữ số là:", "A. 0", "B. 8", "C. 9", "D. 10", "C. 9"));
-        list.add(new QuestionModel("Số bé nhất trong các số: 8, 3, 10, 6 là:", "A. 8", "B. 3", "C. 10", "D. 6", "B. 3"));
-        list.add(new QuestionModel("Kết quả của phép tính: 10 – 8 + 3 là:", "A. 7", "A. 1", "C. 8", "D. 5", "D. 5"));
-        list.add(new QuestionModel("Số bé nhất có một chữ số là:", "A. 1", "B. 0", "C. 2", "D. 9", "B. 0"));
-        list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 7", "B. 4", "C. 9", "D. 1", "C. 9"));
-        list.add(new QuestionModel("Phép tính nào sai?", "A. 7 – 5 = 2", "B. 4 + 4 = 9", "3 + 3 = 6", "C. 10 – 9 = 1", "B. 4 + 4 = 9"));
-    }
-    private void setThree() {
-        list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));
-        list.add(new QuestionModel("Số cần điền vào: ... – 2 = 3 là:", "A. 1", "B. 5", "C. 9", "D. 4", "B. 5"));
-        list.add(new QuestionModel("Sắp xếp các số: 0, 5, 2, 10 theo thứ tự từ bé đến lớn:", "A. 10, 5, 2, 0", "B. 2 , 0 , 10 , 5", "C. 5, 2, 10, 0", "D. 0 , 2 , 5 , 10", "D. 0 , 2 , 5 , 10"));
-        list.add(new QuestionModel("Số cần điền vào: 7 + 1 > ... + 2 là:", "A. 7", "B. 5", "C. 8", "D. 10", "B. 5"));
-        list.add(new QuestionModel("Số lớn nhất có một chữ số là:", "A. 0", "B. 8", "C. 9", "D. 10", "C. 9"));
-        list.add(new QuestionModel("Số bé nhất trong các số: 8, 3, 10, 6 là:", "A. 8", "B. 3", "C. 10", "D. 6", "B. 3"));
-        list.add(new QuestionModel("Kết quả của phép tính: 10 – 8 + 3 là:", "A. 7", "A. 1", "C. 8", "D. 5", "D. 5"));
-        list.add(new QuestionModel("Số bé nhất có một chữ số là:", "A. 1", "B. 0", "C. 2", "D. 9", "B. 0"));
-        list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 7", "B. 4", "C. 9", "D. 1", "C. 9"));
-        list.add(new QuestionModel("Phép tính nào sai?", "A. 7 – 5 = 2", "B. 4 + 4 = 9", "3 + 3 = 6", "C. 10 – 9 = 1", "B. 4 + 4 = 9"));
-    }
-    private void setFour() {
-        list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));
-        list.add(new QuestionModel("Số cần điền vào: ... – 2 = 3 là:", "A. 1", "B. 5", "C. 9", "D. 4", "B. 5"));
-        list.add(new QuestionModel("Sắp xếp các số: 0, 5, 2, 10 theo thứ tự từ bé đến lớn:", "A. 10, 5, 2, 0", "B. 2 , 0 , 10 , 5", "C. 5, 2, 10, 0", "D. 0 , 2 , 5 , 10", "D. 0 , 2 , 5 , 10"));
-        list.add(new QuestionModel("Số cần điền vào: 7 + 1 > ... + 2 là:", "A. 7", "B. 5", "C. 8", "D. 10", "B. 5"));
-        list.add(new QuestionModel("Số lớn nhất có một chữ số là:", "A. 0", "B. 8", "C. 9", "D. 10", "C. 9"));
-        list.add(new QuestionModel("Số bé nhất trong các số: 8, 3, 10, 6 là:", "A. 8", "B. 3", "C. 10", "D. 6", "B. 3"));
-        list.add(new QuestionModel("Kết quả của phép tính: 10 – 8 + 3 là:", "A. 7", "A. 1", "C. 8", "D. 5", "D. 5"));
-        list.add(new QuestionModel("Số bé nhất có một chữ số là:", "A. 1", "B. 0", "C. 2", "D. 9", "B. 0"));
-        list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 7", "B. 4", "C. 9", "D. 1", "C. 9"));
-        list.add(new QuestionModel("Phép tính nào sai?", "A. 7 – 5 = 2", "B. 4 + 4 = 9", "3 + 3 = 6", "C. 10 – 9 = 1", "B. 4 + 4 = 9"));
-    }
-    private void setFive() {
-        list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));
-        list.add(new QuestionModel("Số cần điền vào: ... – 2 = 3 là:", "A. 1", "B. 5", "C. 9", "D. 4", "B. 5"));
-        list.add(new QuestionModel("Sắp xếp các số: 0, 5, 2, 10 theo thứ tự từ bé đến lớn:", "A. 10, 5, 2, 0", "B. 2 , 0 , 10 , 5", "C. 5, 2, 10, 0", "D. 0 , 2 , 5 , 10", "D. 0 , 2 , 5 , 10"));
-        list.add(new QuestionModel("Số cần điền vào: 7 + 1 > ... + 2 là:", "A. 7", "B. 5", "C. 8", "D. 10", "B. 5"));
-        list.add(new QuestionModel("Số lớn nhất có một chữ số là:", "A. 0", "B. 8", "C. 9", "D. 10", "C. 9"));
-        list.add(new QuestionModel("Số bé nhất trong các số: 8, 3, 10, 6 là:", "A. 8", "B. 3", "C. 10", "D. 6", "B. 3"));
-        list.add(new QuestionModel("Kết quả của phép tính: 10 – 8 + 3 là:", "A. 7", "A. 1", "C. 8", "D. 5", "D. 5"));
-        list.add(new QuestionModel("Số bé nhất có một chữ số là:", "A. 1", "B. 0", "C. 2", "D. 9", "B. 0"));
-        list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 7", "B. 4", "C. 9", "D. 1", "C. 9"));
-        list.add(new QuestionModel("Phép tính nào sai?", "A. 7 – 5 = 2", "B. 4 + 4 = 9", "3 + 3 = 6", "C. 10 – 9 = 1", "B. 4 + 4 = 9"));
-    }
-    private void setSix() {
-        list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));
-        list.add(new QuestionModel("Số cần điền vào: ... – 2 = 3 là:", "A. 1", "B. 5", "C. 9", "D. 4", "B. 5"));
-        list.add(new QuestionModel("Sắp xếp các số: 0, 5, 2, 10 theo thứ tự từ bé đến lớn:", "A. 10, 5, 2, 0", "B. 2 , 0 , 10 , 5", "C. 5, 2, 10, 0", "D. 0 , 2 , 5 , 10", "D. 0 , 2 , 5 , 10"));
-        list.add(new QuestionModel("Số cần điền vào: 7 + 1 > ... + 2 là:", "A. 7", "B. 5", "C. 8", "D. 10", "B. 5"));
-        list.add(new QuestionModel("Số lớn nhất có một chữ số là:", "A. 0", "B. 8", "C. 9", "D. 10", "C. 9"));
-        list.add(new QuestionModel("Số bé nhất trong các số: 8, 3, 10, 6 là:", "A. 8", "B. 3", "C. 10", "D. 6", "B. 3"));
-        list.add(new QuestionModel("Kết quả của phép tính: 10 – 8 + 3 là:", "A. 7", "A. 1", "C. 8", "D. 5", "D. 5"));
-        list.add(new QuestionModel("Số bé nhất có một chữ số là:", "A. 1", "B. 0", "C. 2", "D. 9", "B. 0"));
-        list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 7", "B. 4", "C. 9", "D. 1", "C. 9"));
-        list.add(new QuestionModel("Phép tính nào sai?", "A. 7 – 5 = 2", "B. 4 + 4 = 9", "3 + 3 = 6", "C. 10 – 9 = 1", "B. 4 + 4 = 9"));
-    }
-    private void setSeven() {
-        list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));
-        list.add(new QuestionModel("Số cần điền vào: ... – 2 = 3 là:", "A. 1", "B. 5", "C. 9", "D. 4", "B. 5"));
-        list.add(new QuestionModel("Sắp xếp các số: 0, 5, 2, 10 theo thứ tự từ bé đến lớn:", "A. 10, 5, 2, 0", "B. 2 , 0 , 10 , 5", "C. 5, 2, 10, 0", "D. 0 , 2 , 5 , 10", "D. 0 , 2 , 5 , 10"));
-        list.add(new QuestionModel("Số cần điền vào: 7 + 1 > ... + 2 là:", "A. 7", "B. 5", "C. 8", "D. 10", "B. 5"));
-        list.add(new QuestionModel("Số lớn nhất có một chữ số là:", "A. 0", "B. 8", "C. 9", "D. 10", "C. 9"));
-        list.add(new QuestionModel("Số bé nhất trong các số: 8, 3, 10, 6 là:", "A. 8", "B. 3", "C. 10", "D. 6", "B. 3"));
-        list.add(new QuestionModel("Kết quả của phép tính: 10 – 8 + 3 là:", "A. 7", "A. 1", "C. 8", "D. 5", "D. 5"));
-        list.add(new QuestionModel("Số bé nhất có một chữ số là:", "A. 1", "B. 0", "C. 2", "D. 9", "B. 0"));
-        list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 7", "B. 4", "C. 9", "D. 1", "C. 9"));
-        list.add(new QuestionModel("Phép tính nào sai?", "A. 7 – 5 = 2", "B. 4 + 4 = 9", "3 + 3 = 6", "C. 10 – 9 = 1", "B. 4 + 4 = 9"));
-    }
-    private void setEight() {
-        list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));
-        list.add(new QuestionModel("Số cần điền vào: ... – 2 = 3 là:", "A. 1", "B. 5", "C. 9", "D. 4", "B. 5"));
-        list.add(new QuestionModel("Sắp xếp các số: 0, 5, 2, 10 theo thứ tự từ bé đến lớn:", "A. 10, 5, 2, 0", "B. 2 , 0 , 10 , 5", "C. 5, 2, 10, 0", "D. 0 , 2 , 5 , 10", "D. 0 , 2 , 5 , 10"));
-        list.add(new QuestionModel("Số cần điền vào: 7 + 1 > ... + 2 là:", "A. 7", "B. 5", "C. 8", "D. 10", "B. 5"));
-        list.add(new QuestionModel("Số lớn nhất có một chữ số là:", "A. 0", "B. 8", "C. 9", "D. 10", "C. 9"));
-        list.add(new QuestionModel("Số bé nhất trong các số: 8, 3, 10, 6 là:", "A. 8", "B. 3", "C. 10", "D. 6", "B. 3"));
-        list.add(new QuestionModel("Kết quả của phép tính: 10 – 8 + 3 là:", "A. 7", "A. 1", "C. 8", "D. 5", "D. 5"));
-        list.add(new QuestionModel("Số bé nhất có một chữ số là:", "A. 1", "B. 0", "C. 2", "D. 9", "B. 0"));
-        list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 7", "B. 4", "C. 9", "D. 1", "C. 9"));
-        list.add(new QuestionModel("Phép tính nào sai?", "A. 7 – 5 = 2", "B. 4 + 4 = 9", "3 + 3 = 6", "C. 10 – 9 = 1", "B. 4 + 4 = 9"));
-    }
-    private void setNine() {
-        list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));
-        list.add(new QuestionModel("Số cần điền vào: ... – 2 = 3 là:", "A. 1", "B. 5", "C. 9", "D. 4", "B. 5"));
-        list.add(new QuestionModel("Sắp xếp các số: 0, 5, 2, 10 theo thứ tự từ bé đến lớn:", "A. 10, 5, 2, 0", "B. 2 , 0 , 10 , 5", "C. 5, 2, 10, 0", "D. 0 , 2 , 5 , 10", "D. 0 , 2 , 5 , 10"));
-        list.add(new QuestionModel("Số cần điền vào: 7 + 1 > ... + 2 là:", "A. 7", "B. 5", "C. 8", "D. 10", "B. 5"));
-        list.add(new QuestionModel("Số lớn nhất có một chữ số là:", "A. 0", "B. 8", "C. 9", "D. 10", "C. 9"));
-        list.add(new QuestionModel("Số bé nhất trong các số: 8, 3, 10, 6 là:", "A. 8", "B. 3", "C. 10", "D. 6", "B. 3"));
-        list.add(new QuestionModel("Kết quả của phép tính: 10 – 8 + 3 là:", "A. 7", "A. 1", "C. 8", "D. 5", "D. 5"));
-        list.add(new QuestionModel("Số bé nhất có một chữ số là:", "A. 1", "B. 0", "C. 2", "D. 9", "B. 0"));
-        list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 7", "B. 4", "C. 9", "D. 1", "C. 9"));
-        list.add(new QuestionModel("Phép tính nào sai?", "A. 7 – 5 = 2", "B. 4 + 4 = 9", "3 + 3 = 6", "C. 10 – 9 = 1", "B. 4 + 4 = 9"));
-    }
-    private void setTen() {
-        list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));
-        list.add(new QuestionModel("Số cần điền vào: ... – 2 = 3 là:", "A. 1", "B. 5", "C. 9", "D. 4", "B. 5"));
-        list.add(new QuestionModel("Sắp xếp các số: 0, 5, 2, 10 theo thứ tự từ bé đến lớn:", "A. 10, 5, 2, 0", "B. 2 , 0 , 10 , 5", "C. 5, 2, 10, 0", "D. 0 , 2 , 5 , 10", "D. 0 , 2 , 5 , 10"));
-        list.add(new QuestionModel("Số cần điền vào: 7 + 1 > ... + 2 là:", "A. 7", "B. 5", "C. 8", "D. 10", "B. 5"));
-        list.add(new QuestionModel("Số lớn nhất có một chữ số là:", "A. 0", "B. 8", "C. 9", "D. 10", "C. 9"));
-        list.add(new QuestionModel("Số bé nhất trong các số: 8, 3, 10, 6 là:", "A. 8", "B. 3", "C. 10", "D. 6", "B. 3"));
-        list.add(new QuestionModel("Kết quả của phép tính: 10 – 8 + 3 là:", "A. 7", "A. 1", "C. 8", "D. 5", "D. 5"));
-        list.add(new QuestionModel("Số bé nhất có một chữ số là:", "A. 1", "B. 0", "C. 2", "D. 9", "B. 0"));
-        list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 7", "B. 4", "C. 9", "D. 1", "C. 9"));
-        list.add(new QuestionModel("Phép tính nào sai?", "A. 7 – 5 = 2", "B. 4 + 4 = 9", "3 + 3 = 6", "C. 10 – 9 = 1", "B. 4 + 4 = 9"));
-    }
-
 }

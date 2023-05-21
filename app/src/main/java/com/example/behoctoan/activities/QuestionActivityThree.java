@@ -120,7 +120,7 @@ public class QuestionActivityThree extends AppCompatActivity {
                 dialog.findViewById(R.id.tryAgain).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent intent = new Intent(QuestionActivityThree.this, SetsActivity.class);
+                        Intent intent = new Intent(QuestionActivityThree.this, SetsActivityThree.class);
                         startActivity(intent);
                         finish();
                     }
@@ -210,124 +210,124 @@ public class QuestionActivityThree extends AppCompatActivity {
     }
 
     private void setOne() {
-        list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));
-        list.add(new QuestionModel("Số cần điền vào: ... – 2 = 3 là:", "A. 1", "B. 5", "C. 9", "D. 4", "B. 5"));
-        list.add(new QuestionModel("Sắp xếp các số: 0, 5, 2, 10 theo thứ tự từ bé đến lớn:", "A. 10, 5, 2, 0", "B. 2 , 0 , 10 , 5", "C. 5, 2, 10, 0", "D. 0 , 2 , 5 , 10", "D. 0 , 2 , 5 , 10"));
-        list.add(new QuestionModel("Số cần điền vào: 7 + 1 > ... + 2 là:", "A. 7", "B. 5", "C. 8", "D. 10", "B. 5"));
-        list.add(new QuestionModel("Số lớn nhất có một chữ số là:", "A. 0", "B. 8", "C. 9", "D. 10", "C. 9"));
-        list.add(new QuestionModel("Số bé nhất trong các số: 8, 3, 10, 6 là:", "A. 8", "B. 3", "C. 10", "D. 6", "B. 3"));
-        list.add(new QuestionModel("Kết quả của phép tính: 10 – 8 + 3 là:", "A. 7", "A. 1", "C. 8", "D. 5", "D. 5"));
-        list.add(new QuestionModel("Số bé nhất có một chữ số là:", "A. 1", "B. 0", "C. 2", "D. 9", "B. 0"));
-        list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 7", "B. 4", "C. 9", "D. 1", "C. 9"));
-        list.add(new QuestionModel("Phép tính nào sai?", "A. 7 – 5 = 2", "B. 4 + 4 = 9", "3 + 3 = 6", "C. 10 – 9 = 1", "B. 4 + 4 = 9"));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
     }
     private void setTwo() {
-        list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));
-        list.add(new QuestionModel("Số cần điền vào: ... – 2 = 3 là:", "A. 1", "B. 5", "C. 9", "D. 4", "B. 5"));
-        list.add(new QuestionModel("Sắp xếp các số: 0, 5, 2, 10 theo thứ tự từ bé đến lớn:", "A. 10, 5, 2, 0", "B. 2 , 0 , 10 , 5", "C. 5, 2, 10, 0", "D. 0 , 2 , 5 , 10", "D. 0 , 2 , 5 , 10"));
-        list.add(new QuestionModel("Số cần điền vào: 7 + 1 > ... + 2 là:", "A. 7", "B. 5", "C. 8", "D. 10", "B. 5"));
-        list.add(new QuestionModel("Số lớn nhất có một chữ số là:", "A. 0", "B. 8", "C. 9", "D. 10", "C. 9"));
-        list.add(new QuestionModel("Số bé nhất trong các số: 8, 3, 10, 6 là:", "A. 8", "B. 3", "C. 10", "D. 6", "B. 3"));
-        list.add(new QuestionModel("Kết quả của phép tính: 10 – 8 + 3 là:", "A. 7", "A. 1", "C. 8", "D. 5", "D. 5"));
-        list.add(new QuestionModel("Số bé nhất có một chữ số là:", "A. 1", "B. 0", "C. 2", "D. 9", "B. 0"));
-        list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 7", "B. 4", "C. 9", "D. 1", "C. 9"));
-        list.add(new QuestionModel("Phép tính nào sai?", "A. 7 – 5 = 2", "B. 4 + 4 = 9", "3 + 3 = 6", "C. 10 – 9 = 1", "B. 4 + 4 = 9"));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
     }
     private void setThree() {
-        list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));
-        list.add(new QuestionModel("Số cần điền vào: ... – 2 = 3 là:", "A. 1", "B. 5", "C. 9", "D. 4", "B. 5"));
-        list.add(new QuestionModel("Sắp xếp các số: 0, 5, 2, 10 theo thứ tự từ bé đến lớn:", "A. 10, 5, 2, 0", "B. 2 , 0 , 10 , 5", "C. 5, 2, 10, 0", "D. 0 , 2 , 5 , 10", "D. 0 , 2 , 5 , 10"));
-        list.add(new QuestionModel("Số cần điền vào: 7 + 1 > ... + 2 là:", "A. 7", "B. 5", "C. 8", "D. 10", "B. 5"));
-        list.add(new QuestionModel("Số lớn nhất có một chữ số là:", "A. 0", "B. 8", "C. 9", "D. 10", "C. 9"));
-        list.add(new QuestionModel("Số bé nhất trong các số: 8, 3, 10, 6 là:", "A. 8", "B. 3", "C. 10", "D. 6", "B. 3"));
-        list.add(new QuestionModel("Kết quả của phép tính: 10 – 8 + 3 là:", "A. 7", "A. 1", "C. 8", "D. 5", "D. 5"));
-        list.add(new QuestionModel("Số bé nhất có một chữ số là:", "A. 1", "B. 0", "C. 2", "D. 9", "B. 0"));
-        list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 7", "B. 4", "C. 9", "D. 1", "C. 9"));
-        list.add(new QuestionModel("Phép tính nào sai?", "A. 7 – 5 = 2", "B. 4 + 4 = 9", "3 + 3 = 6", "C. 10 – 9 = 1", "B. 4 + 4 = 9"));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
     }
     private void setFour() {
-        list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));
-        list.add(new QuestionModel("Số cần điền vào: ... – 2 = 3 là:", "A. 1", "B. 5", "C. 9", "D. 4", "B. 5"));
-        list.add(new QuestionModel("Sắp xếp các số: 0, 5, 2, 10 theo thứ tự từ bé đến lớn:", "A. 10, 5, 2, 0", "B. 2 , 0 , 10 , 5", "C. 5, 2, 10, 0", "D. 0 , 2 , 5 , 10", "D. 0 , 2 , 5 , 10"));
-        list.add(new QuestionModel("Số cần điền vào: 7 + 1 > ... + 2 là:", "A. 7", "B. 5", "C. 8", "D. 10", "B. 5"));
-        list.add(new QuestionModel("Số lớn nhất có một chữ số là:", "A. 0", "B. 8", "C. 9", "D. 10", "C. 9"));
-        list.add(new QuestionModel("Số bé nhất trong các số: 8, 3, 10, 6 là:", "A. 8", "B. 3", "C. 10", "D. 6", "B. 3"));
-        list.add(new QuestionModel("Kết quả của phép tính: 10 – 8 + 3 là:", "A. 7", "A. 1", "C. 8", "D. 5", "D. 5"));
-        list.add(new QuestionModel("Số bé nhất có một chữ số là:", "A. 1", "B. 0", "C. 2", "D. 9", "B. 0"));
-        list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 7", "B. 4", "C. 9", "D. 1", "C. 9"));
-        list.add(new QuestionModel("Phép tính nào sai?", "A. 7 – 5 = 2", "B. 4 + 4 = 9", "3 + 3 = 6", "C. 10 – 9 = 1", "B. 4 + 4 = 9"));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
     }
     private void setFive() {
-        list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));
-        list.add(new QuestionModel("Số cần điền vào: ... – 2 = 3 là:", "A. 1", "B. 5", "C. 9", "D. 4", "B. 5"));
-        list.add(new QuestionModel("Sắp xếp các số: 0, 5, 2, 10 theo thứ tự từ bé đến lớn:", "A. 10, 5, 2, 0", "B. 2 , 0 , 10 , 5", "C. 5, 2, 10, 0", "D. 0 , 2 , 5 , 10", "D. 0 , 2 , 5 , 10"));
-        list.add(new QuestionModel("Số cần điền vào: 7 + 1 > ... + 2 là:", "A. 7", "B. 5", "C. 8", "D. 10", "B. 5"));
-        list.add(new QuestionModel("Số lớn nhất có một chữ số là:", "A. 0", "B. 8", "C. 9", "D. 10", "C. 9"));
-        list.add(new QuestionModel("Số bé nhất trong các số: 8, 3, 10, 6 là:", "A. 8", "B. 3", "C. 10", "D. 6", "B. 3"));
-        list.add(new QuestionModel("Kết quả của phép tính: 10 – 8 + 3 là:", "A. 7", "A. 1", "C. 8", "D. 5", "D. 5"));
-        list.add(new QuestionModel("Số bé nhất có một chữ số là:", "A. 1", "B. 0", "C. 2", "D. 9", "B. 0"));
-        list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 7", "B. 4", "C. 9", "D. 1", "C. 9"));
-        list.add(new QuestionModel("Phép tính nào sai?", "A. 7 – 5 = 2", "B. 4 + 4 = 9", "3 + 3 = 6", "C. 10 – 9 = 1", "B. 4 + 4 = 9"));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
     }
     private void setSix() {
-        list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));
-        list.add(new QuestionModel("Số cần điền vào: ... – 2 = 3 là:", "A. 1", "B. 5", "C. 9", "D. 4", "B. 5"));
-        list.add(new QuestionModel("Sắp xếp các số: 0, 5, 2, 10 theo thứ tự từ bé đến lớn:", "A. 10, 5, 2, 0", "B. 2 , 0 , 10 , 5", "C. 5, 2, 10, 0", "D. 0 , 2 , 5 , 10", "D. 0 , 2 , 5 , 10"));
-        list.add(new QuestionModel("Số cần điền vào: 7 + 1 > ... + 2 là:", "A. 7", "B. 5", "C. 8", "D. 10", "B. 5"));
-        list.add(new QuestionModel("Số lớn nhất có một chữ số là:", "A. 0", "B. 8", "C. 9", "D. 10", "C. 9"));
-        list.add(new QuestionModel("Số bé nhất trong các số: 8, 3, 10, 6 là:", "A. 8", "B. 3", "C. 10", "D. 6", "B. 3"));
-        list.add(new QuestionModel("Kết quả của phép tính: 10 – 8 + 3 là:", "A. 7", "A. 1", "C. 8", "D. 5", "D. 5"));
-        list.add(new QuestionModel("Số bé nhất có một chữ số là:", "A. 1", "B. 0", "C. 2", "D. 9", "B. 0"));
-        list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 7", "B. 4", "C. 9", "D. 1", "C. 9"));
-        list.add(new QuestionModel("Phép tính nào sai?", "A. 7 – 5 = 2", "B. 4 + 4 = 9", "3 + 3 = 6", "C. 10 – 9 = 1", "B. 4 + 4 = 9"));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
     }
     private void setSeven() {
-        list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));
-        list.add(new QuestionModel("Số cần điền vào: ... – 2 = 3 là:", "A. 1", "B. 5", "C. 9", "D. 4", "B. 5"));
-        list.add(new QuestionModel("Sắp xếp các số: 0, 5, 2, 10 theo thứ tự từ bé đến lớn:", "A. 10, 5, 2, 0", "B. 2 , 0 , 10 , 5", "C. 5, 2, 10, 0", "D. 0 , 2 , 5 , 10", "D. 0 , 2 , 5 , 10"));
-        list.add(new QuestionModel("Số cần điền vào: 7 + 1 > ... + 2 là:", "A. 7", "B. 5", "C. 8", "D. 10", "B. 5"));
-        list.add(new QuestionModel("Số lớn nhất có một chữ số là:", "A. 0", "B. 8", "C. 9", "D. 10", "C. 9"));
-        list.add(new QuestionModel("Số bé nhất trong các số: 8, 3, 10, 6 là:", "A. 8", "B. 3", "C. 10", "D. 6", "B. 3"));
-        list.add(new QuestionModel("Kết quả của phép tính: 10 – 8 + 3 là:", "A. 7", "A. 1", "C. 8", "D. 5", "D. 5"));
-        list.add(new QuestionModel("Số bé nhất có một chữ số là:", "A. 1", "B. 0", "C. 2", "D. 9", "B. 0"));
-        list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 7", "B. 4", "C. 9", "D. 1", "C. 9"));
-        list.add(new QuestionModel("Phép tính nào sai?", "A. 7 – 5 = 2", "B. 4 + 4 = 9", "3 + 3 = 6", "C. 10 – 9 = 1", "B. 4 + 4 = 9"));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
     }
     private void setEight() {
-        list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));
-        list.add(new QuestionModel("Số cần điền vào: ... – 2 = 3 là:", "A. 1", "B. 5", "C. 9", "D. 4", "B. 5"));
-        list.add(new QuestionModel("Sắp xếp các số: 0, 5, 2, 10 theo thứ tự từ bé đến lớn:", "A. 10, 5, 2, 0", "B. 2 , 0 , 10 , 5", "C. 5, 2, 10, 0", "D. 0 , 2 , 5 , 10", "D. 0 , 2 , 5 , 10"));
-        list.add(new QuestionModel("Số cần điền vào: 7 + 1 > ... + 2 là:", "A. 7", "B. 5", "C. 8", "D. 10", "B. 5"));
-        list.add(new QuestionModel("Số lớn nhất có một chữ số là:", "A. 0", "B. 8", "C. 9", "D. 10", "C. 9"));
-        list.add(new QuestionModel("Số bé nhất trong các số: 8, 3, 10, 6 là:", "A. 8", "B. 3", "C. 10", "D. 6", "B. 3"));
-        list.add(new QuestionModel("Kết quả của phép tính: 10 – 8 + 3 là:", "A. 7", "A. 1", "C. 8", "D. 5", "D. 5"));
-        list.add(new QuestionModel("Số bé nhất có một chữ số là:", "A. 1", "B. 0", "C. 2", "D. 9", "B. 0"));
-        list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 7", "B. 4", "C. 9", "D. 1", "C. 9"));
-        list.add(new QuestionModel("Phép tính nào sai?", "A. 7 – 5 = 2", "B. 4 + 4 = 9", "3 + 3 = 6", "C. 10 – 9 = 1", "B. 4 + 4 = 9"));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
     }
     private void setNine() {
-        list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));
-        list.add(new QuestionModel("Số cần điền vào: ... – 2 = 3 là:", "A. 1", "B. 5", "C. 9", "D. 4", "B. 5"));
-        list.add(new QuestionModel("Sắp xếp các số: 0, 5, 2, 10 theo thứ tự từ bé đến lớn:", "A. 10, 5, 2, 0", "B. 2 , 0 , 10 , 5", "C. 5, 2, 10, 0", "D. 0 , 2 , 5 , 10", "D. 0 , 2 , 5 , 10"));
-        list.add(new QuestionModel("Số cần điền vào: 7 + 1 > ... + 2 là:", "A. 7", "B. 5", "C. 8", "D. 10", "B. 5"));
-        list.add(new QuestionModel("Số lớn nhất có một chữ số là:", "A. 0", "B. 8", "C. 9", "D. 10", "C. 9"));
-        list.add(new QuestionModel("Số bé nhất trong các số: 8, 3, 10, 6 là:", "A. 8", "B. 3", "C. 10", "D. 6", "B. 3"));
-        list.add(new QuestionModel("Kết quả của phép tính: 10 – 8 + 3 là:", "A. 7", "A. 1", "C. 8", "D. 5", "D. 5"));
-        list.add(new QuestionModel("Số bé nhất có một chữ số là:", "A. 1", "B. 0", "C. 2", "D. 9", "B. 0"));
-        list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 7", "B. 4", "C. 9", "D. 1", "C. 9"));
-        list.add(new QuestionModel("Phép tính nào sai?", "A. 7 – 5 = 2", "B. 4 + 4 = 9", "3 + 3 = 6", "C. 10 – 9 = 1", "B. 4 + 4 = 9"));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
     }
     private void setTen() {
-        list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));
-        list.add(new QuestionModel("Số cần điền vào: ... – 2 = 3 là:", "A. 1", "B. 5", "C. 9", "D. 4", "B. 5"));
-        list.add(new QuestionModel("Sắp xếp các số: 0, 5, 2, 10 theo thứ tự từ bé đến lớn:", "A. 10, 5, 2, 0", "B. 2 , 0 , 10 , 5", "C. 5, 2, 10, 0", "D. 0 , 2 , 5 , 10", "D. 0 , 2 , 5 , 10"));
-        list.add(new QuestionModel("Số cần điền vào: 7 + 1 > ... + 2 là:", "A. 7", "B. 5", "C. 8", "D. 10", "B. 5"));
-        list.add(new QuestionModel("Số lớn nhất có một chữ số là:", "A. 0", "B. 8", "C. 9", "D. 10", "C. 9"));
-        list.add(new QuestionModel("Số bé nhất trong các số: 8, 3, 10, 6 là:", "A. 8", "B. 3", "C. 10", "D. 6", "B. 3"));
-        list.add(new QuestionModel("Kết quả của phép tính: 10 – 8 + 3 là:", "A. 7", "A. 1", "C. 8", "D. 5", "D. 5"));
-        list.add(new QuestionModel("Số bé nhất có một chữ số là:", "A. 1", "B. 0", "C. 2", "D. 9", "B. 0"));
-        list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 7", "B. 4", "C. 9", "D. 1", "C. 9"));
-        list.add(new QuestionModel("Phép tính nào sai?", "A. 7 – 5 = 2", "B. 4 + 4 = 9", "3 + 3 = 6", "C. 10 – 9 = 1", "B. 4 + 4 = 9"));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
     }
 
 }
