@@ -20,7 +20,7 @@ import com.example.behoctoan.databinding.ActivityQuestionBinding;
 
 import java.util.ArrayList;
 
-public class QuestionActivity extends AppCompatActivity {
+public class QuestionActivityFour extends AppCompatActivity {
 
     ArrayList<QuestionModel> list = new ArrayList<>();
     private int count = 0;
@@ -64,7 +64,7 @@ public class QuestionActivity extends AppCompatActivity {
         } else if (setName.equals("BÀI LUYỆN TẬP 10")) {
             setTen();
         }
-        
+
         for(int i=0; i<4; i++) {
             binding.optionContainer.getChildAt(i).setOnClickListener(new View.OnClickListener(){
                 @Override
@@ -90,14 +90,14 @@ public class QuestionActivity extends AppCompatActivity {
                 position++;
 
                 if(position == list.size()) {
-                    Intent intent = new Intent(QuestionActivity.this, ScoreActivity.class);
+                    Intent intent = new Intent(QuestionActivityFour.this, ScoreActivity.class);
                     intent.putExtra("score", score);
                     intent.putExtra("total", list.size());
                     startActivity(intent);;
                     finish();
                     return;
                 }
-                
+
                 count = 0;
                 playAnimation(binding.question, 0, list.get(position).getQuestion());
             }
@@ -113,14 +113,14 @@ public class QuestionActivity extends AppCompatActivity {
 
             @Override
             public void onFinish() {
-                Dialog dialog = new Dialog(QuestionActivity.this);
+                Dialog dialog = new Dialog(QuestionActivityFour.this);
                 dialog.getWindow().addFlags(WindowManager.LayoutParams.FLAG_BLUR_BEHIND);
                 dialog.setCancelable(false);
                 dialog.setContentView(R.layout.timeout_dialog);
                 dialog.findViewById(R.id.tryAgain).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent intent = new Intent(QuestionActivity.this, SetsActivity.class);
+                        Intent intent = new Intent(QuestionActivityFour.this, SetsActivity.class);
                         startActivity(intent);
                         finish();
                     }

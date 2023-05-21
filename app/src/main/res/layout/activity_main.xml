@@ -22,18 +22,17 @@
         <androidx.gridlayout.widget.GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             app:columnCount="1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:rowCount="3">
+            app:rowCount="5">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/class_1"
-                android:layout_width="250dp"
+                android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="30dp"
                 app:cardCornerRadius="10dp"
@@ -44,18 +43,31 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/category"
-                    android:gravity="center"
-                    android:orientation="vertical">
+                    >
 
                     <ImageView
                         android:layout_width="150dp"
-                        android:layout_height="170dp"
-                        app:srcCompat="@drawable/class1" />
+                        android:layout_height="90dp"
+                        app:srcCompat="@drawable/one" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LỚP 1"
+                        android:textColor="@color/one"
+                        android:textSize="40dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="18dp"
+                       />
+
+
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="250dp"
+                android:id="@+id/class_2"
+                android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 app:cardCornerRadius="10dp"
@@ -66,18 +78,62 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/category"
-                    android:gravity="center"
-                    android:orientation="vertical">
+                    >
 
                     <ImageView
                         android:layout_width="150dp"
-                        android:layout_height="170dp"
-                        app:srcCompat="@drawable/class2" />
+                        android:layout_height="90dp"
+                        app:srcCompat="@drawable/two" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LỚP 2"
+                        android:textColor="@color/two"
+                        android:textSize="40dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="18dp"
+                        />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="250dp"
+                android:id="@+id/class_3"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                app:cardCornerRadius="10dp"
+                app:layout_gravity="center"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/category">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="90dp"
+                        app:srcCompat="@drawable/three" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LỚP 3"
+                        android:textColor="@color/three"
+                        android:textSize="40dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="18dp"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/class_4"
+                android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="30dp"
                 app:cardCornerRadius="10dp"
@@ -88,13 +144,55 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/category"
-                    android:gravity="center"
-                    android:orientation="vertical">
+                    >
 
                     <ImageView
                         android:layout_width="150dp"
-                        android:layout_height="170dp"
-                        app:srcCompat="@drawable/class3" />
+                        android:layout_height="90dp"
+                        app:srcCompat="@drawable/four" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LỚP 4"
+                        android:textColor="@color/four"
+                        android:textSize="40dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="18dp"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/class_5"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                app:cardCornerRadius="10dp"
+                app:layout_gravity="center"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/category">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="90dp"
+                        app:srcCompat="@drawable/five" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LỚP 5"
+                        android:textColor="@color/five"
+                        android:textSize="40dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="18dp"
+                        />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
         </androidx.gridlayout.widget.GridLayout>
@@ -105,7 +203,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="BÉ HỌC LỚP ?"
+        android:text="BÉ HỌC LỚP MẤY ?"
         android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"

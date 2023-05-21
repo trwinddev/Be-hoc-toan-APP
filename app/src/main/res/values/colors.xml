@@ -11,4 +11,9 @@
     <color name="backg">#6a5be2</color>
     <color name="category">#e8e4fa</color>
     <color name="click">#ff8fa3</color>
+    <color name="one">#FBB040</color>
+    <color name="two">#00AEEF</color>
+    <color name="three">#8DC63F</color>
+    <color name="four">#EDCC19</color>
+    <color name="five">#EF5180</color>
 </resources>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/category"
-    tools:context=".activities.SetsActivity">
+    tools:context=".activities.SetActivityFive">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="LỚP 1"
+                android:text="LỚP 3"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
