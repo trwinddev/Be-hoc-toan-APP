@@ -223,16 +223,16 @@ public class QuestionTwoActivity extends AppCompatActivity {
         list.add(new QuestionModel("Lukaku và Martinez có 22 quả bóng nhựa. Nếu lấy bớt của Lukaku 5 quả thì hai bạn còn lại bao nhiêu quả bóng nhựa? Hai bạn còn lại số quả bóng nhựa là:", "A. 27", "B. 17", "C. 22", "D. 15", "B. 17"));
     }
     private void setTwo() {
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("Các số 28; 37; 46; 52 được viết theo thứ tự từ lớn đến bé là:", "A. 46; 37; 52; 28", "B. 28; 37; 46; 52", "C. 52; 46; 37; 28", "D. 52; 37; 46; 28", "C. 52; 46; 37; 28"));
+        list.add(new QuestionModel("Số lớn hơn 74 và nhỏ hơn 76 là:", "A. 73", "B. 77", "C. 75", "D. 76", "C. 75"));
+        list.add(new QuestionModel("Lan và Hồng có 22 quyển truyện tranh. Nếu lấy bớt của Hồng 5 quyển thì hai bạn còn lại bao nhiêu quyển truyện tranh? Hai bạn còn lại số quyển truyện tranh là:", "A. 27", "B. 17", "C. 22", "D. 15", "B. 17"));
+        list.add(new QuestionModel("Số lớn nhất có 2 chữ số khác nhau là:", "A. 99", "B. 89", "C. 98", "D. 100", "C. 98"));
+        list.add(new QuestionModel("92 bằng tổng của hai số nào trong cac cặp số sau đây?", "A. 32 và 50", "B. 55 và 47", "C. 37 và 55", "D. 55 và 47", "C. 37 và 55"));
+        list.add(new QuestionModel("Lan gấp được 12 máy bay, Thành gấp được 14 máy bay. Hỏi cả hai bạn gấp được bao nhiêu máy bay?", "A. 16 máy bay", "B.  26 máy bay", "C. 2 máy bay", "D. 36 máy bay", "B.  26 máy bay"));
+        list.add(new QuestionModel("Tính nhanh: 1 + 2 + 3 + 17 + 18 + 19", "A. 60", "B. 40", "C. 80", "D. 100", "A. 60"));
+        list.add(new QuestionModel("Tìm x: x – 17 = 32 – 8", "A. x = 24", "B. x = 41", "C. x = 31", "D. x = 12", "B. x = 41"));
+        list.add(new QuestionModel("Linh học bài từ lúc 8 giờ và đi ngủ lúc 10 giờ. Thời gian Linh học bài là mấy giờ?", "A. 18 giờ", "B. 2 giờ", "C. 9 giờ", "D. 6 giờ", "B. 2 giờ"));
+        list.add(new QuestionModel("Hôm nay là thứ 6 ngày 23 tháng 8. Vậy thứ sáu tuần sau là ngày bao nhiêu?", "A.  24 tháng 8", "B.  25 tháng 8", "C. 30 tháng 8", "D.  31 tháng 8", "C. 30 tháng 8"));
     }
     private void setThree() {
         list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));

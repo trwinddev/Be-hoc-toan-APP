@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import android.os.Bundle;
 
 import com.example.behoctoan.Adapters.SetAdapter;
+import com.example.behoctoan.Adapters.SetAdapterThree;
 import com.example.behoctoan.Models.SetModel;
 import com.example.behoctoan.R;
 import com.example.behoctoan.databinding.ActivitySetsBinding;
@@ -43,7 +44,7 @@ public class SetsActivityThree extends AppCompatActivity {
 
 
 
-        SetAdapter adapter = new SetAdapter(this, list);
+        SetAdapterThree adapter = new SetAdapterThree(this, list);
         binding.setsRecy.setAdapter(adapter);
     }
 }

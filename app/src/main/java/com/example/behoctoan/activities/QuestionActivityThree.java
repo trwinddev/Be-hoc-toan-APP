@@ -210,7 +210,7 @@ public class QuestionActivityThree extends AppCompatActivity {
     }
 
     private void setOne() {
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("Cho dãy số liệu: 8; 1998; 195; 2007; 1000; 71 768; 9999; 17. Dãy trên có tất cả:", "A. ", "B. ", "C. ", "D. ", ""));
         list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
         list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
         list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));

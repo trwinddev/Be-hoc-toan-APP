@@ -25,7 +25,6 @@ public class ScoreActivity extends AppCompatActivity {
 
         int wrong = totalScore - correctAnswer;
 
-        binding.totalQuestions.setText(String.valueOf(totalScore));
         binding.rightAnsw.setText(String.valueOf(correctAnswer));
 
         binding.wrongAnsw.setText(String.valueOf(wrong));

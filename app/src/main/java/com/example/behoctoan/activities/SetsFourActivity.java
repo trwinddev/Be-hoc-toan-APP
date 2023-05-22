@@ -6,14 +6,16 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import android.os.Bundle;
 
 import com.example.behoctoan.Adapters.SetAdapter;
+import com.example.behoctoan.Adapters.SetAdapterFour;
+import com.example.behoctoan.Adapters.SetAdapterTwo;
 import com.example.behoctoan.Models.SetModel;
 import com.example.behoctoan.R;
-import com.example.behoctoan.databinding.ActivitySetsBinding;
 import com.example.behoctoan.databinding.ActivitySetsFourBinding;
+import com.example.behoctoan.databinding.ActivitySetsTwoBinding;
 
 import java.util.ArrayList;
 
-public class SetsActivityFour extends AppCompatActivity {
+public class SetsFourActivity extends AppCompatActivity {
 
     ActivitySetsFourBinding binding;
     ArrayList<SetModel>list;
@@ -43,7 +45,8 @@ public class SetsActivityFour extends AppCompatActivity {
 
 
 
-        SetAdapter adapter = new SetAdapter(this, list);
+        SetAdapterFour adapter = new SetAdapterFour(this, list);
         binding.setsRecy.setAdapter(adapter);
+
     }
 }

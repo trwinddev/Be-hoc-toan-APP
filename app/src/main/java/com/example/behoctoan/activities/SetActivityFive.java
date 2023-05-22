@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import android.os.Bundle;
 
 import com.example.behoctoan.Adapters.SetAdapter;
+import com.example.behoctoan.Adapters.SetAdapterFive;
 import com.example.behoctoan.Models.SetModel;
 import com.example.behoctoan.R;
 import com.example.behoctoan.databinding.ActivitySetFiveBinding;
@@ -41,7 +42,7 @@ public class SetActivityFive extends AppCompatActivity {
         list.add(new SetModel("BÀI LUYỆN TẬP 9"));
         list.add(new SetModel("BÀI LUYỆN TẬP 10"));
 
-        SetAdapter adapter = new SetAdapter(this, list);
+        SetAdapterFive adapter = new SetAdapterFive(this, list);
         binding.setsRecy.setAdapter(adapter);
     }
 }
