@@ -212,16 +212,16 @@ public class QuestionFourActivity extends AppCompatActivity {
     }
 
     private void setOne() {
-        list.add(new QuestionModel("4", "A. 83", "B. 93", "C. 94", "D. 95", "B. 93"));
-        list.add(new QuestionModel("Phép trừ 100 - 57 có kết quả là:", "A. 53", "B. 44", "C. 43", "D. 33", "C. 43"));
-        list.add(new QuestionModel("Tổng nào dưới đây bé hơn 56?", "A. 50 + 8", "B. 49 + 7", "C. 36 + 29", "D. 48 + 6", "D. 48 + 6"));
-        list.add(new QuestionModel("Trong một ngày, cửa hàng bán được 56 kg đường, trong đó buổi sáng bán được 27kg. Hỏi buổi chiều bán được bao nhiêu kg đường?", "A. 83 kg", "B. 29 kg", "C. 39 kg", "D. 13 kg", "B. 29 kg"));
-        list.add(new QuestionModel("Thứ ba tuần này là ngày 20 tháng 12. Vậy thứ ba tuần sau là ngày mấy?", "A. Ngày 26 tháng 12", "B. Ngày 27 tháng 12", "C. Ngày 28 tháng 12", "D. Ngày 29 tháng 12", "B. Ngày 27 tháng 12"));
-        list.add(new QuestionModel("Hiệu của 73 và 37 là:", "A. 36", "B. 46", "C. 35", "D. 47", "A. 36"));
-        list.add(new QuestionModel("Chiều dài của cái giường em nằm ước chừng là:", "A. 50 cm", "B. 2 km", "C. 2 m", "D. 10 dm", "C. 2 m"));
-        list.add(new QuestionModel("Số liền trước của 80 là:", "A. 79", "B. 80", "C. 81", "D. 82", "A. 79"));
-        list.add(new QuestionModel("Số thích hợp điền vào chỗ chấm 60 cm = ... dm là:", "A. 6 dm", "B. 6", "C. 60", "D. 6 cm", "B. 6"));
-        list.add(new QuestionModel("Lukaku và Martinez có 22 quả bóng nhựa. Nếu lấy bớt của Lukaku 5 quả thì hai bạn còn lại bao nhiêu quả bóng nhựa? Hai bạn còn lại số quả bóng nhựa là:", "A. 27", "B. 17", "C. 22", "D. 15", "B. 17"));
+        list.add(new QuestionModel("Số bốn mươi lăm nghìn ba trăm linh tám được viết là:", "A. 45307", "B. 45308", "C. 45380", "D. 45038", "B. 45308"));
+        list.add(new QuestionModel("Một cửa hàng trong hai ngày bán được 620 kg gạo. Hỏi trong 7 ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo? (Biết rằng số gạo mỗi ngày bán được là như nhau).", "A. 4340 kg", "B. 217 kg", "C. 434 kg", "D. 2170 kg", "D. 2170 kg"));
+        list.add(new QuestionModel("Số đo chiều cao của 5 học sinh lớp Năm lần lượt là: 148 cm; 146 cm ; 144 cm ; 142 cm; 140 cm. Hỏi trung bình số đo chiều cao của mỗi cm là bao nhiêu xăng-ti-mét?", "A. 144 cm", "B. 142 cm", "C. 145 cm", "D. 146 cm", "C. 145 cm"));
+        list.add(new QuestionModel("Số trung bình cộng của hai số bằng 40. Biết rằng một trong hai số đó bằng 58. Tìm số kia?", "A. 98", "B. 18", "C. 49", "D. 22", "A. 98"));
+        list.add(new QuestionModel("Một người đi xe máy trong 1/5 phút được 324 m. Hỏi trong một giây người ấy đi được bao nhiêu mét?", "A. 27 m", "B. 12 m", "C. 270 m", "D. 3888 m", "A. 27 m"));
+        list.add(new QuestionModel("Năm 1459 thuộc thế kỷ thứ mấy?", "A. XII", "B. XIII", "C. XIV", "D. XV", "C. XIV"));
+        list.add(new QuestionModel("Tìm x biết: 6 < x < 9 và x là số lẻ:", "A. 6", "B. 7", "C. 8", "D. 9", "B. 7"));
+        list.add(new QuestionModel("Số tự nhiên liền trước số 10001 là:", "A. 10011", "B. 10002", "C. 10021", "D. 10000", "D. 10000"));
+        list.add(new QuestionModel("Giá trị của chữ số 8 trong số sau: 45873246.", "A. 8 000", "B. 80 000", "C. 800 000", "D. 8 000 000", "C. 800 000"));
+        list.add(new QuestionModel("Đọc số sau: 325600608", "A. Ba trăm hai mươi lăm triệu sáu mươi nghìn sáu trăm linh tám", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám", "C. Ba trăm hai mươi lăm triệu sáu nghìn sáu trăm linh tám", "D. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm tám mươi", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám"));
     }
     private void setTwo() {
         list.add(new QuestionModel("Các số 28; 37; 46; 52 được viết theo thứ tự từ lớn đến bé là:", "A. 46; 37; 52; 28", "B. 28; 37; 46; 52", "C. 52; 46; 37; 28", "D. 52; 37; 46; 28", "C. 52; 46; 37; 28"));
