@@ -41,7 +41,7 @@ public class ScoreActivity extends AppCompatActivity {
         binding.btnQuit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                finish();
+                finishAffinity();
             }
         });
     }

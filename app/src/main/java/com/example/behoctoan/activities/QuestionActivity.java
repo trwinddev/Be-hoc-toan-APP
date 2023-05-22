@@ -70,6 +70,7 @@ public class QuestionActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     checkAnswer((Button) view);
+                    enableOption(false);
                 }
             });
         }
@@ -231,7 +232,7 @@ public class QuestionActivity extends AppCompatActivity {
         list.add(new QuestionModel("Số lớn nhất trong các số: 1, 9, 4, 7 là:", "A. 1", "B. 9", "C. 4", "D. 7", "B. 9"));
         list.add(new QuestionModel("Có mấy số có một chữ số?", "A. 10 số", "B. 9 số", "C. 1 số", "D. 0 số", "A. 10 số"));
         list.add(new QuestionModel("3 + 5 = 9 - ... .Điền số nào vào chỗ trống?", "A. 1", "B. 2", "C. 6", "D. 4", "A. 1"));
-        list.add(new QuestionModel("Tú hái được số quả cam nhiều hơn 5 nhưng lại ít hơn 7. Vậy Tú hái được số quả cam là:", "A. 5 quả", "B. 6 quả", "C. 8 quả", "D. 8 quả", "B. 6 quả"));
+        list.add(new QuestionModel("Tú hái được số quả cam nhiều hơn 5 nhưng lại ít hơn 7. Vậy Tú hái được số quả cam là:", "A. 5 quả", "B. 6 quả", "C. 8 quả", "D. 9 quả", "B. 6 quả"));
     }
     private void setThree() {
         list.add(new QuestionModel("Kết quả của 3 + 5 là:", "A. 5", "B. 7", "C. 8", "D. 9", "C. 8"));

@@ -72,6 +72,7 @@ public class QuestionFourActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     checkAnswer((Button) view);
+                    enableOption(false);
                 }
             });
         }

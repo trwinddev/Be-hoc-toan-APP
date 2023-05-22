@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.os.Bundle;
+import android.view.View;
 
 import com.example.behoctoan.Adapters.SetAdapter;
 import com.example.behoctoan.Adapters.SetAdapterTwo;
@@ -41,10 +42,15 @@ public class SetsTwoActivity extends AppCompatActivity {
         list.add(new SetModel("BÀI LUYỆN TẬP 9"));
         list.add(new SetModel("BÀI LUYỆN TẬP 10"));
 
-
-
         SetAdapterTwo adapter = new SetAdapterTwo(this, list);
         binding.setsRecy.setAdapter(adapter);
+
+        binding.imageView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
 
     }
 }
