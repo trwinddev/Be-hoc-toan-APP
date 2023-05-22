@@ -222,112 +222,113 @@ public class QuestionActivityThree extends AppCompatActivity {
         list.add(new QuestionModel("Lớp 3A có 28 học sinh. Nếu số học sinh lớp 3A xếp đều vào 7 hàng thì lớp 3B có 6 hàng như thế. Hỏi lớp 3B có bao nhiêu học sinh?", "A.  34 học sinh", "B.  27 học sinh", "C.  21 học sinh", "D.  24 học sinh", "D.  24 học sinh"));
     }
     private void setTwo() {
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("Cho dãy số liệu: 8; 1998; 195; 2007; 1000; 71 768; 9999; 17. Dãy trên có tất cả:", "A. 11 số", "B. 9 số", "C. 8 số", "D. 10 số", "C. 8 số"));
+        list.add(new QuestionModel("Tổng của 47 856 và 35 687 là:", "A. 83433", "B. 82443", "C. 83543", "D. 82543", "C. 83543"));
+        list.add(new QuestionModel("Trong các số dưới đây, số nào không thuộc dãy số: 1, 4, 7, 10, 13, ...", "A. 1000", "B. 1234", "C. 2007", "D. 100", "A. 1000"));
+        list.add(new QuestionModel("Mai có 7 viên bi, Hồng có 15 viên bi. Hỏi Hồng phải cho Mai bao nhiêu viên bi để số bi của hai bạn bằng nhau.", "A. 3 viên", "B. 5 viên", "C. 4 viên", "D. 6 viên", "C. 4 viên"));
+        list.add(new QuestionModel("Tìm x biết: 8462 - x = 762", "A. x = 8700", "B. x = 6700", "C. x = 7600", "D. x = 7700", "D. x = 7700"));
+        list.add(new QuestionModel("Số nhỏ nhất có 4 chữ số là:", "A. 1011", "B. 1001", "C. 1000", "D. 1111", "C. 1000"));
+        list.add(new QuestionModel("Số lẻ liền sau số 2007 là:", "A. 2008", "B. 2009", "C. 2017", "D. 2005", "B. 2009"));
+        list.add(new QuestionModel("Hiệu của số lớn nhất có bốn chữ số và số nhỏ nhất có ba chữ số là:", "A. 9899", "B. 9999", "C. 9888", "D. 8888", "A. 9899"));
+        list.add(new QuestionModel("Biết 356a7 > 35679 giá trị của a là:", "A. 0", "B. 10", "C. 7", "D. 9", "D. 9"));
+        list.add(new QuestionModel("Lớp 3A có 28 học sinh. Nếu số học sinh lớp 3A xếp đều vào 7 hàng thì lớp 3B có 6 hàng như thế. Hỏi lớp 3B có bao nhiêu học sinh?", "A.  34 học sinh", "B.  27 học sinh", "C.  21 học sinh", "D.  24 học sinh", "D.  24 học sinh"));
     }
     private void setThree() {
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("Cho dãy số liệu: 8; 1998; 195; 2007; 1000; 71 768; 9999; 17. Dãy trên có tất cả:", "A. 11 số", "B. 9 số", "C. 8 số", "D. 10 số", "C. 8 số"));
+        list.add(new QuestionModel("Tổng của 47 856 và 35 687 là:", "A. 83433", "B. 82443", "C. 83543", "D. 82543", "C. 83543"));
+        list.add(new QuestionModel("Trong các số dưới đây, số nào không thuộc dãy số: 1, 4, 7, 10, 13, ...", "A. 1000", "B. 1234", "C. 2007", "D. 100", "A. 1000"));
+        list.add(new QuestionModel("Mai có 7 viên bi, Hồng có 15 viên bi. Hỏi Hồng phải cho Mai bao nhiêu viên bi để số bi của hai bạn bằng nhau.", "A. 3 viên", "B. 5 viên", "C. 4 viên", "D. 6 viên", "C. 4 viên"));
+        list.add(new QuestionModel("Tìm x biết: 8462 - x = 762", "A. x = 8700", "B. x = 6700", "C. x = 7600", "D. x = 7700", "D. x = 7700"));
+        list.add(new QuestionModel("Số nhỏ nhất có 4 chữ số là:", "A. 1011", "B. 1001", "C. 1000", "D. 1111", "C. 1000"));
+        list.add(new QuestionModel("Số lẻ liền sau số 2007 là:", "A. 2008", "B. 2009", "C. 2017", "D. 2005", "B. 2009"));
+        list.add(new QuestionModel("Hiệu của số lớn nhất có bốn chữ số và số nhỏ nhất có ba chữ số là:", "A. 9899", "B. 9999", "C. 9888", "D. 8888", "A. 9899"));
+        list.add(new QuestionModel("Biết 356a7 > 35679 giá trị của a là:", "A. 0", "B. 10", "C. 7", "D. 9", "D. 9"));
+        list.add(new QuestionModel("Lớp 3A có 28 học sinh. Nếu số học sinh lớp 3A xếp đều vào 7 hàng thì lớp 3B có 6 hàng như thế. Hỏi lớp 3B có bao nhiêu học sinh?", "A.  34 học sinh", "B.  27 học sinh", "C.  21 học sinh", "D.  24 học sinh", "D.  24 học sinh"));
     }
     private void setFour() {
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("Cho dãy số liệu: 8; 1998; 195; 2007; 1000; 71 768; 9999; 17. Dãy trên có tất cả:", "A. 11 số", "B. 9 số", "C. 8 số", "D. 10 số", "C. 8 số"));
+        list.add(new QuestionModel("Tổng của 47 856 và 35 687 là:", "A. 83433", "B. 82443", "C. 83543", "D. 82543", "C. 83543"));
+        list.add(new QuestionModel("Trong các số dưới đây, số nào không thuộc dãy số: 1, 4, 7, 10, 13, ...", "A. 1000", "B. 1234", "C. 2007", "D. 100", "A. 1000"));
+        list.add(new QuestionModel("Mai có 7 viên bi, Hồng có 15 viên bi. Hỏi Hồng phải cho Mai bao nhiêu viên bi để số bi của hai bạn bằng nhau.", "A. 3 viên", "B. 5 viên", "C. 4 viên", "D. 6 viên", "C. 4 viên"));
+        list.add(new QuestionModel("Tìm x biết: 8462 - x = 762", "A. x = 8700", "B. x = 6700", "C. x = 7600", "D. x = 7700", "D. x = 7700"));
+        list.add(new QuestionModel("Số nhỏ nhất có 4 chữ số là:", "A. 1011", "B. 1001", "C. 1000", "D. 1111", "C. 1000"));
+        list.add(new QuestionModel("Số lẻ liền sau số 2007 là:", "A. 2008", "B. 2009", "C. 2017", "D. 2005", "B. 2009"));
+        list.add(new QuestionModel("Hiệu của số lớn nhất có bốn chữ số và số nhỏ nhất có ba chữ số là:", "A. 9899", "B. 9999", "C. 9888", "D. 8888", "A. 9899"));
+        list.add(new QuestionModel("Biết 356a7 > 35679 giá trị của a là:", "A. 0", "B. 10", "C. 7", "D. 9", "D. 9"));
+        list.add(new QuestionModel("Lớp 3A có 28 học sinh. Nếu số học sinh lớp 3A xếp đều vào 7 hàng thì lớp 3B có 6 hàng như thế. Hỏi lớp 3B có bao nhiêu học sinh?", "A.  34 học sinh", "B.  27 học sinh", "C.  21 học sinh", "D.  24 học sinh", "D.  24 học sinh"));
     }
     private void setFive() {
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("Cho dãy số liệu: 8; 1998; 195; 2007; 1000; 71 768; 9999; 17. Dãy trên có tất cả:", "A. 11 số", "B. 9 số", "C. 8 số", "D. 10 số", "C. 8 số"));
+        list.add(new QuestionModel("Tổng của 47 856 và 35 687 là:", "A. 83433", "B. 82443", "C. 83543", "D. 82543", "C. 83543"));
+        list.add(new QuestionModel("Trong các số dưới đây, số nào không thuộc dãy số: 1, 4, 7, 10, 13, ...", "A. 1000", "B. 1234", "C. 2007", "D. 100", "A. 1000"));
+        list.add(new QuestionModel("Mai có 7 viên bi, Hồng có 15 viên bi. Hỏi Hồng phải cho Mai bao nhiêu viên bi để số bi của hai bạn bằng nhau.", "A. 3 viên", "B. 5 viên", "C. 4 viên", "D. 6 viên", "C. 4 viên"));
+        list.add(new QuestionModel("Tìm x biết: 8462 - x = 762", "A. x = 8700", "B. x = 6700", "C. x = 7600", "D. x = 7700", "D. x = 7700"));
+        list.add(new QuestionModel("Số nhỏ nhất có 4 chữ số là:", "A. 1011", "B. 1001", "C. 1000", "D. 1111", "C. 1000"));
+        list.add(new QuestionModel("Số lẻ liền sau số 2007 là:", "A. 2008", "B. 2009", "C. 2017", "D. 2005", "B. 2009"));
+        list.add(new QuestionModel("Hiệu của số lớn nhất có bốn chữ số và số nhỏ nhất có ba chữ số là:", "A. 9899", "B. 9999", "C. 9888", "D. 8888", "A. 9899"));
+        list.add(new QuestionModel("Biết 356a7 > 35679 giá trị của a là:", "A. 0", "B. 10", "C. 7", "D. 9", "D. 9"));
+        list.add(new QuestionModel("Lớp 3A có 28 học sinh. Nếu số học sinh lớp 3A xếp đều vào 7 hàng thì lớp 3B có 6 hàng như thế. Hỏi lớp 3B có bao nhiêu học sinh?", "A.  34 học sinh", "B.  27 học sinh", "C.  21 học sinh", "D.  24 học sinh", "D.  24 học sinh"));
     }
     private void setSix() {
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("Cho dãy số liệu: 8; 1998; 195; 2007; 1000; 71 768; 9999; 17. Dãy trên có tất cả:", "A. 11 số", "B. 9 số", "C. 8 số", "D. 10 số", "C. 8 số"));
+        list.add(new QuestionModel("Tổng của 47 856 và 35 687 là:", "A. 83433", "B. 82443", "C. 83543", "D. 82543", "C. 83543"));
+        list.add(new QuestionModel("Trong các số dưới đây, số nào không thuộc dãy số: 1, 4, 7, 10, 13, ...", "A. 1000", "B. 1234", "C. 2007", "D. 100", "A. 1000"));
+        list.add(new QuestionModel("Mai có 7 viên bi, Hồng có 15 viên bi. Hỏi Hồng phải cho Mai bao nhiêu viên bi để số bi của hai bạn bằng nhau.", "A. 3 viên", "B. 5 viên", "C. 4 viên", "D. 6 viên", "C. 4 viên"));
+        list.add(new QuestionModel("Tìm x biết: 8462 - x = 762", "A. x = 8700", "B. x = 6700", "C. x = 7600", "D. x = 7700", "D. x = 7700"));
+        list.add(new QuestionModel("Số nhỏ nhất có 4 chữ số là:", "A. 1011", "B. 1001", "C. 1000", "D. 1111", "C. 1000"));
+        list.add(new QuestionModel("Số lẻ liền sau số 2007 là:", "A. 2008", "B. 2009", "C. 2017", "D. 2005", "B. 2009"));
+        list.add(new QuestionModel("Hiệu của số lớn nhất có bốn chữ số và số nhỏ nhất có ba chữ số là:", "A. 9899", "B. 9999", "C. 9888", "D. 8888", "A. 9899"));
+        list.add(new QuestionModel("Biết 356a7 > 35679 giá trị của a là:", "A. 0", "B. 10", "C. 7", "D. 9", "D. 9"));
+        list.add(new QuestionModel("Lớp 3A có 28 học sinh. Nếu số học sinh lớp 3A xếp đều vào 7 hàng thì lớp 3B có 6 hàng như thế. Hỏi lớp 3B có bao nhiêu học sinh?", "A.  34 học sinh", "B.  27 học sinh", "C.  21 học sinh", "D.  24 học sinh", "D.  24 học sinh"));
     }
     private void setSeven() {
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("Cho dãy số liệu: 8; 1998; 195; 2007; 1000; 71 768; 9999; 17. Dãy trên có tất cả:", "A. 11 số", "B. 9 số", "C. 8 số", "D. 10 số", "C. 8 số"));
+        list.add(new QuestionModel("Tổng của 47 856 và 35 687 là:", "A. 83433", "B. 82443", "C. 83543", "D. 82543", "C. 83543"));
+        list.add(new QuestionModel("Trong các số dưới đây, số nào không thuộc dãy số: 1, 4, 7, 10, 13, ...", "A. 1000", "B. 1234", "C. 2007", "D. 100", "A. 1000"));
+        list.add(new QuestionModel("Mai có 7 viên bi, Hồng có 15 viên bi. Hỏi Hồng phải cho Mai bao nhiêu viên bi để số bi của hai bạn bằng nhau.", "A. 3 viên", "B. 5 viên", "C. 4 viên", "D. 6 viên", "C. 4 viên"));
+        list.add(new QuestionModel("Tìm x biết: 8462 - x = 762", "A. x = 8700", "B. x = 6700", "C. x = 7600", "D. x = 7700", "D. x = 7700"));
+        list.add(new QuestionModel("Số nhỏ nhất có 4 chữ số là:", "A. 1011", "B. 1001", "C. 1000", "D. 1111", "C. 1000"));
+        list.add(new QuestionModel("Số lẻ liền sau số 2007 là:", "A. 2008", "B. 2009", "C. 2017", "D. 2005", "B. 2009"));
+        list.add(new QuestionModel("Hiệu của số lớn nhất có bốn chữ số và số nhỏ nhất có ba chữ số là:", "A. 9899", "B. 9999", "C. 9888", "D. 8888", "A. 9899"));
+        list.add(new QuestionModel("Biết 356a7 > 35679 giá trị của a là:", "A. 0", "B. 10", "C. 7", "D. 9", "D. 9"));
+        list.add(new QuestionModel("Lớp 3A có 28 học sinh. Nếu số học sinh lớp 3A xếp đều vào 7 hàng thì lớp 3B có 6 hàng như thế. Hỏi lớp 3B có bao nhiêu học sinh?", "A.  34 học sinh", "B.  27 học sinh", "C.  21 học sinh", "D.  24 học sinh", "D.  24 học sinh"));
     }
     private void setEight() {
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("Cho dãy số liệu: 8; 1998; 195; 2007; 1000; 71 768; 9999; 17. Dãy trên có tất cả:", "A. 11 số", "B. 9 số", "C. 8 số", "D. 10 số", "C. 8 số"));
+        list.add(new QuestionModel("Tổng của 47 856 và 35 687 là:", "A. 83433", "B. 82443", "C. 83543", "D. 82543", "C. 83543"));
+        list.add(new QuestionModel("Trong các số dưới đây, số nào không thuộc dãy số: 1, 4, 7, 10, 13, ...", "A. 1000", "B. 1234", "C. 2007", "D. 100", "A. 1000"));
+        list.add(new QuestionModel("Mai có 7 viên bi, Hồng có 15 viên bi. Hỏi Hồng phải cho Mai bao nhiêu viên bi để số bi của hai bạn bằng nhau.", "A. 3 viên", "B. 5 viên", "C. 4 viên", "D. 6 viên", "C. 4 viên"));
+        list.add(new QuestionModel("Tìm x biết: 8462 - x = 762", "A. x = 8700", "B. x = 6700", "C. x = 7600", "D. x = 7700", "D. x = 7700"));
+        list.add(new QuestionModel("Số nhỏ nhất có 4 chữ số là:", "A. 1011", "B. 1001", "C. 1000", "D. 1111", "C. 1000"));
+        list.add(new QuestionModel("Số lẻ liền sau số 2007 là:", "A. 2008", "B. 2009", "C. 2017", "D. 2005", "B. 2009"));
+        list.add(new QuestionModel("Hiệu của số lớn nhất có bốn chữ số và số nhỏ nhất có ba chữ số là:", "A. 9899", "B. 9999", "C. 9888", "D. 8888", "A. 9899"));
+        list.add(new QuestionModel("Biết 356a7 > 35679 giá trị của a là:", "A. 0", "B. 10", "C. 7", "D. 9", "D. 9"));
+        list.add(new QuestionModel("Lớp 3A có 28 học sinh. Nếu số học sinh lớp 3A xếp đều vào 7 hàng thì lớp 3B có 6 hàng như thế. Hỏi lớp 3B có bao nhiêu học sinh?", "A.  34 học sinh", "B.  27 học sinh", "C.  21 học sinh", "D.  24 học sinh", "D.  24 học sinh"));
     }
     private void setNine() {
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("Cho dãy số liệu: 8; 1998; 195; 2007; 1000; 71 768; 9999; 17. Dãy trên có tất cả:", "A. 11 số", "B. 9 số", "C. 8 số", "D. 10 số", "C. 8 số"));
+        list.add(new QuestionModel("Tổng của 47 856 và 35 687 là:", "A. 83433", "B. 82443", "C. 83543", "D. 82543", "C. 83543"));
+        list.add(new QuestionModel("Trong các số dưới đây, số nào không thuộc dãy số: 1, 4, 7, 10, 13, ...", "A. 1000", "B. 1234", "C. 2007", "D. 100", "A. 1000"));
+        list.add(new QuestionModel("Mai có 7 viên bi, Hồng có 15 viên bi. Hỏi Hồng phải cho Mai bao nhiêu viên bi để số bi của hai bạn bằng nhau.", "A. 3 viên", "B. 5 viên", "C. 4 viên", "D. 6 viên", "C. 4 viên"));
+        list.add(new QuestionModel("Tìm x biết: 8462 - x = 762", "A. x = 8700", "B. x = 6700", "C. x = 7600", "D. x = 7700", "D. x = 7700"));
+        list.add(new QuestionModel("Số nhỏ nhất có 4 chữ số là:", "A. 1011", "B. 1001", "C. 1000", "D. 1111", "C. 1000"));
+        list.add(new QuestionModel("Số lẻ liền sau số 2007 là:", "A. 2008", "B. 2009", "C. 2017", "D. 2005", "B. 2009"));
+        list.add(new QuestionModel("Hiệu của số lớn nhất có bốn chữ số và số nhỏ nhất có ba chữ số là:", "A. 9899", "B. 9999", "C. 9888", "D. 8888", "A. 9899"));
+        list.add(new QuestionModel("Biết 356a7 > 35679 giá trị của a là:", "A. 0", "B. 10", "C. 7", "D. 9", "D. 9"));
+        list.add(new QuestionModel("Lớp 3A có 28 học sinh. Nếu số học sinh lớp 3A xếp đều vào 7 hàng thì lớp 3B có 6 hàng như thế. Hỏi lớp 3B có bao nhiêu học sinh?", "A.  34 học sinh", "B.  27 học sinh", "C.  21 học sinh", "D.  24 học sinh", "D.  24 học sinh"));
     }
     private void setTen() {
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("Cho dãy số liệu: 8; 1998; 195; 2007; 1000; 71 768; 9999; 17. Dãy trên có tất cả:", "A. 11 số", "B. 9 số", "C. 8 số", "D. 10 số", "C. 8 số"));
+        list.add(new QuestionModel("Tổng của 47 856 và 35 687 là:", "A. 83433", "B. 82443", "C. 83543", "D. 82543", "C. 83543"));
+        list.add(new QuestionModel("Trong các số dưới đây, số nào không thuộc dãy số: 1, 4, 7, 10, 13, ...", "A. 1000", "B. 1234", "C. 2007", "D. 100", "A. 1000"));
+        list.add(new QuestionModel("Mai có 7 viên bi, Hồng có 15 viên bi. Hỏi Hồng phải cho Mai bao nhiêu viên bi để số bi của hai bạn bằng nhau.", "A. 3 viên", "B. 5 viên", "C. 4 viên", "D. 6 viên", "C. 4 viên"));
+        list.add(new QuestionModel("Tìm x biết: 8462 - x = 762", "A. x = 8700", "B. x = 6700", "C. x = 7600", "D. x = 7700", "D. x = 7700"));
+        list.add(new QuestionModel("Số nhỏ nhất có 4 chữ số là:", "A. 1011", "B. 1001", "C. 1000", "D. 1111", "C. 1000"));
+        list.add(new QuestionModel("Số lẻ liền sau số 2007 là:", "A. 2008", "B. 2009", "C. 2017", "D. 2005", "B. 2009"));
+        list.add(new QuestionModel("Hiệu của số lớn nhất có bốn chữ số và số nhỏ nhất có ba chữ số là:", "A. 9899", "B. 9999", "C. 9888", "D. 8888", "A. 9899"));
+        list.add(new QuestionModel("Biết 356a7 > 35679 giá trị của a là:", "A. 0", "B. 10", "C. 7", "D. 9", "D. 9"));
+        list.add(new QuestionModel("Lớp 3A có 28 học sinh. Nếu số học sinh lớp 3A xếp đều vào 7 hàng thì lớp 3B có 6 hàng như thế. Hỏi lớp 3B có bao nhiêu học sinh?", "A.  34 học sinh", "B.  27 học sinh", "C.  21 học sinh", "D.  24 học sinh", "D.  24 học sinh"));
     }
+
 
 }

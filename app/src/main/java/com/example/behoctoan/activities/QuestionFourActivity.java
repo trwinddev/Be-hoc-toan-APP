@@ -224,112 +224,112 @@ public class QuestionFourActivity extends AppCompatActivity {
         list.add(new QuestionModel("Đọc số sau: 325600608", "A. Ba trăm hai mươi lăm triệu sáu mươi nghìn sáu trăm linh tám", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám", "C. Ba trăm hai mươi lăm triệu sáu nghìn sáu trăm linh tám", "D. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm tám mươi", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám"));
     }
     private void setTwo() {
-        list.add(new QuestionModel("Các số 28; 37; 46; 52 được viết theo thứ tự từ lớn đến bé là:", "A. 46; 37; 52; 28", "B. 28; 37; 46; 52", "C. 52; 46; 37; 28", "D. 52; 37; 46; 28", "C. 52; 46; 37; 28"));
-        list.add(new QuestionModel("Số lớn hơn 74 và nhỏ hơn 76 là:", "A. 73", "B. 77", "C. 75", "D. 76", "C. 75"));
-        list.add(new QuestionModel("Lan và Hồng có 22 quyển truyện tranh. Nếu lấy bớt của Hồng 5 quyển thì hai bạn còn lại bao nhiêu quyển truyện tranh? Hai bạn còn lại số quyển truyện tranh là:", "A. 27", "B. 17", "C. 22", "D. 15", "B. 17"));
-        list.add(new QuestionModel("Số lớn nhất có 2 chữ số khác nhau là:", "A. 99", "B. 89", "C. 98", "D. 100", "C. 98"));
-        list.add(new QuestionModel("92 bằng tổng của hai số nào trong cac cặp số sau đây?", "A. 32 và 50", "B. 55 và 47", "C. 37 và 55", "D. 55 và 47", "C. 37 và 55"));
-        list.add(new QuestionModel("Lan gấp được 12 máy bay, Thành gấp được 14 máy bay. Hỏi cả hai bạn gấp được bao nhiêu máy bay?", "A. 16 máy bay", "B.  26 máy bay", "C. 2 máy bay", "D. 36 máy bay", "B.  26 máy bay"));
-        list.add(new QuestionModel("Tính nhanh: 1 + 2 + 3 + 17 + 18 + 19", "A. 60", "B. 40", "C. 80", "D. 100", "A. 60"));
-        list.add(new QuestionModel("Tìm x: x – 17 = 32 – 8", "A. x = 24", "B. x = 41", "C. x = 31", "D. x = 12", "B. x = 41"));
-        list.add(new QuestionModel("Linh học bài từ lúc 8 giờ và đi ngủ lúc 10 giờ. Thời gian Linh học bài là mấy giờ?", "A. 18 giờ", "B. 2 giờ", "C. 9 giờ", "D. 6 giờ", "B. 2 giờ"));
-        list.add(new QuestionModel("Hôm nay là thứ 6 ngày 23 tháng 8. Vậy thứ sáu tuần sau là ngày bao nhiêu?", "A.  24 tháng 8", "B.  25 tháng 8", "C. 30 tháng 8", "D.  31 tháng 8", "C. 30 tháng 8"));
+        list.add(new QuestionModel("Số bốn mươi lăm nghìn ba trăm linh tám được viết là:", "A. 45307", "B. 45308", "C. 45380", "D. 45038", "B. 45308"));
+        list.add(new QuestionModel("Một cửa hàng trong hai ngày bán được 620 kg gạo. Hỏi trong 7 ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo? (Biết rằng số gạo mỗi ngày bán được là như nhau).", "A. 4340 kg", "B. 217 kg", "C. 434 kg", "D. 2170 kg", "D. 2170 kg"));
+        list.add(new QuestionModel("Số đo chiều cao của 5 học sinh lớp Năm lần lượt là: 148 cm; 146 cm ; 144 cm ; 142 cm; 140 cm. Hỏi trung bình số đo chiều cao của mỗi cm là bao nhiêu xăng-ti-mét?", "A. 144 cm", "B. 142 cm", "C. 145 cm", "D. 146 cm", "C. 145 cm"));
+        list.add(new QuestionModel("Số trung bình cộng của hai số bằng 40. Biết rằng một trong hai số đó bằng 58. Tìm số kia?", "A. 98", "B. 18", "C. 49", "D. 22", "A. 98"));
+        list.add(new QuestionModel("Một người đi xe máy trong 1/5 phút được 324 m. Hỏi trong một giây người ấy đi được bao nhiêu mét?", "A. 27 m", "B. 12 m", "C. 270 m", "D. 3888 m", "A. 27 m"));
+        list.add(new QuestionModel("Năm 1459 thuộc thế kỷ thứ mấy?", "A. XII", "B. XIII", "C. XIV", "D. XV", "C. XIV"));
+        list.add(new QuestionModel("Tìm x biết: 6 < x < 9 và x là số lẻ:", "A. 6", "B. 7", "C. 8", "D. 9", "B. 7"));
+        list.add(new QuestionModel("Số tự nhiên liền trước số 10001 là:", "A. 10011", "B. 10002", "C. 10021", "D. 10000", "D. 10000"));
+        list.add(new QuestionModel("Giá trị của chữ số 8 trong số sau: 45873246.", "A. 8 000", "B. 80 000", "C. 800 000", "D. 8 000 000", "C. 800 000"));
+        list.add(new QuestionModel("Đọc số sau: 325600608", "A. Ba trăm hai mươi lăm triệu sáu mươi nghìn sáu trăm linh tám", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám", "C. Ba trăm hai mươi lăm triệu sáu nghìn sáu trăm linh tám", "D. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm tám mươi", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám"));
     }
     private void setThree() {
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("Số bốn mươi lăm nghìn ba trăm linh tám được viết là:", "A. 45307", "B. 45308", "C. 45380", "D. 45038", "B. 45308"));
+        list.add(new QuestionModel("Một cửa hàng trong hai ngày bán được 620 kg gạo. Hỏi trong 7 ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo? (Biết rằng số gạo mỗi ngày bán được là như nhau).", "A. 4340 kg", "B. 217 kg", "C. 434 kg", "D. 2170 kg", "D. 2170 kg"));
+        list.add(new QuestionModel("Số đo chiều cao của 5 học sinh lớp Năm lần lượt là: 148 cm; 146 cm ; 144 cm ; 142 cm; 140 cm. Hỏi trung bình số đo chiều cao của mỗi cm là bao nhiêu xăng-ti-mét?", "A. 144 cm", "B. 142 cm", "C. 145 cm", "D. 146 cm", "C. 145 cm"));
+        list.add(new QuestionModel("Số trung bình cộng của hai số bằng 40. Biết rằng một trong hai số đó bằng 58. Tìm số kia?", "A. 98", "B. 18", "C. 49", "D. 22", "A. 98"));
+        list.add(new QuestionModel("Một người đi xe máy trong 1/5 phút được 324 m. Hỏi trong một giây người ấy đi được bao nhiêu mét?", "A. 27 m", "B. 12 m", "C. 270 m", "D. 3888 m", "A. 27 m"));
+        list.add(new QuestionModel("Năm 1459 thuộc thế kỷ thứ mấy?", "A. XII", "B. XIII", "C. XIV", "D. XV", "C. XIV"));
+        list.add(new QuestionModel("Tìm x biết: 6 < x < 9 và x là số lẻ:", "A. 6", "B. 7", "C. 8", "D. 9", "B. 7"));
+        list.add(new QuestionModel("Số tự nhiên liền trước số 10001 là:", "A. 10011", "B. 10002", "C. 10021", "D. 10000", "D. 10000"));
+        list.add(new QuestionModel("Giá trị của chữ số 8 trong số sau: 45873246.", "A. 8 000", "B. 80 000", "C. 800 000", "D. 8 000 000", "C. 800 000"));
+        list.add(new QuestionModel("Đọc số sau: 325600608", "A. Ba trăm hai mươi lăm triệu sáu mươi nghìn sáu trăm linh tám", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám", "C. Ba trăm hai mươi lăm triệu sáu nghìn sáu trăm linh tám", "D. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm tám mươi", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám"));
     }
     private void setFour() {
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("Số bốn mươi lăm nghìn ba trăm linh tám được viết là:", "A. 45307", "B. 45308", "C. 45380", "D. 45038", "B. 45308"));
+        list.add(new QuestionModel("Một cửa hàng trong hai ngày bán được 620 kg gạo. Hỏi trong 7 ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo? (Biết rằng số gạo mỗi ngày bán được là như nhau).", "A. 4340 kg", "B. 217 kg", "C. 434 kg", "D. 2170 kg", "D. 2170 kg"));
+        list.add(new QuestionModel("Số đo chiều cao của 5 học sinh lớp Năm lần lượt là: 148 cm; 146 cm ; 144 cm ; 142 cm; 140 cm. Hỏi trung bình số đo chiều cao của mỗi cm là bao nhiêu xăng-ti-mét?", "A. 144 cm", "B. 142 cm", "C. 145 cm", "D. 146 cm", "C. 145 cm"));
+        list.add(new QuestionModel("Số trung bình cộng của hai số bằng 40. Biết rằng một trong hai số đó bằng 58. Tìm số kia?", "A. 98", "B. 18", "C. 49", "D. 22", "A. 98"));
+        list.add(new QuestionModel("Một người đi xe máy trong 1/5 phút được 324 m. Hỏi trong một giây người ấy đi được bao nhiêu mét?", "A. 27 m", "B. 12 m", "C. 270 m", "D. 3888 m", "A. 27 m"));
+        list.add(new QuestionModel("Năm 1459 thuộc thế kỷ thứ mấy?", "A. XII", "B. XIII", "C. XIV", "D. XV", "C. XIV"));
+        list.add(new QuestionModel("Tìm x biết: 6 < x < 9 và x là số lẻ:", "A. 6", "B. 7", "C. 8", "D. 9", "B. 7"));
+        list.add(new QuestionModel("Số tự nhiên liền trước số 10001 là:", "A. 10011", "B. 10002", "C. 10021", "D. 10000", "D. 10000"));
+        list.add(new QuestionModel("Giá trị của chữ số 8 trong số sau: 45873246.", "A. 8 000", "B. 80 000", "C. 800 000", "D. 8 000 000", "C. 800 000"));
+        list.add(new QuestionModel("Đọc số sau: 325600608", "A. Ba trăm hai mươi lăm triệu sáu mươi nghìn sáu trăm linh tám", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám", "C. Ba trăm hai mươi lăm triệu sáu nghìn sáu trăm linh tám", "D. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm tám mươi", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám"));
     }
     private void setFive() {
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("Số bốn mươi lăm nghìn ba trăm linh tám được viết là:", "A. 45307", "B. 45308", "C. 45380", "D. 45038", "B. 45308"));
+        list.add(new QuestionModel("Một cửa hàng trong hai ngày bán được 620 kg gạo. Hỏi trong 7 ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo? (Biết rằng số gạo mỗi ngày bán được là như nhau).", "A. 4340 kg", "B. 217 kg", "C. 434 kg", "D. 2170 kg", "D. 2170 kg"));
+        list.add(new QuestionModel("Số đo chiều cao của 5 học sinh lớp Năm lần lượt là: 148 cm; 146 cm ; 144 cm ; 142 cm; 140 cm. Hỏi trung bình số đo chiều cao của mỗi cm là bao nhiêu xăng-ti-mét?", "A. 144 cm", "B. 142 cm", "C. 145 cm", "D. 146 cm", "C. 145 cm"));
+        list.add(new QuestionModel("Số trung bình cộng của hai số bằng 40. Biết rằng một trong hai số đó bằng 58. Tìm số kia?", "A. 98", "B. 18", "C. 49", "D. 22", "A. 98"));
+        list.add(new QuestionModel("Một người đi xe máy trong 1/5 phút được 324 m. Hỏi trong một giây người ấy đi được bao nhiêu mét?", "A. 27 m", "B. 12 m", "C. 270 m", "D. 3888 m", "A. 27 m"));
+        list.add(new QuestionModel("Năm 1459 thuộc thế kỷ thứ mấy?", "A. XII", "B. XIII", "C. XIV", "D. XV", "C. XIV"));
+        list.add(new QuestionModel("Tìm x biết: 6 < x < 9 và x là số lẻ:", "A. 6", "B. 7", "C. 8", "D. 9", "B. 7"));
+        list.add(new QuestionModel("Số tự nhiên liền trước số 10001 là:", "A. 10011", "B. 10002", "C. 10021", "D. 10000", "D. 10000"));
+        list.add(new QuestionModel("Giá trị của chữ số 8 trong số sau: 45873246.", "A. 8 000", "B. 80 000", "C. 800 000", "D. 8 000 000", "C. 800 000"));
+        list.add(new QuestionModel("Đọc số sau: 325600608", "A. Ba trăm hai mươi lăm triệu sáu mươi nghìn sáu trăm linh tám", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám", "C. Ba trăm hai mươi lăm triệu sáu nghìn sáu trăm linh tám", "D. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm tám mươi", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám"));
     }
     private void setSix() {
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("Số bốn mươi lăm nghìn ba trăm linh tám được viết là:", "A. 45307", "B. 45308", "C. 45380", "D. 45038", "B. 45308"));
+        list.add(new QuestionModel("Một cửa hàng trong hai ngày bán được 620 kg gạo. Hỏi trong 7 ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo? (Biết rằng số gạo mỗi ngày bán được là như nhau).", "A. 4340 kg", "B. 217 kg", "C. 434 kg", "D. 2170 kg", "D. 2170 kg"));
+        list.add(new QuestionModel("Số đo chiều cao của 5 học sinh lớp Năm lần lượt là: 148 cm; 146 cm ; 144 cm ; 142 cm; 140 cm. Hỏi trung bình số đo chiều cao của mỗi cm là bao nhiêu xăng-ti-mét?", "A. 144 cm", "B. 142 cm", "C. 145 cm", "D. 146 cm", "C. 145 cm"));
+        list.add(new QuestionModel("Số trung bình cộng của hai số bằng 40. Biết rằng một trong hai số đó bằng 58. Tìm số kia?", "A. 98", "B. 18", "C. 49", "D. 22", "A. 98"));
+        list.add(new QuestionModel("Một người đi xe máy trong 1/5 phút được 324 m. Hỏi trong một giây người ấy đi được bao nhiêu mét?", "A. 27 m", "B. 12 m", "C. 270 m", "D. 3888 m", "A. 27 m"));
+        list.add(new QuestionModel("Năm 1459 thuộc thế kỷ thứ mấy?", "A. XII", "B. XIII", "C. XIV", "D. XV", "C. XIV"));
+        list.add(new QuestionModel("Tìm x biết: 6 < x < 9 và x là số lẻ:", "A. 6", "B. 7", "C. 8", "D. 9", "B. 7"));
+        list.add(new QuestionModel("Số tự nhiên liền trước số 10001 là:", "A. 10011", "B. 10002", "C. 10021", "D. 10000", "D. 10000"));
+        list.add(new QuestionModel("Giá trị của chữ số 8 trong số sau: 45873246.", "A. 8 000", "B. 80 000", "C. 800 000", "D. 8 000 000", "C. 800 000"));
+        list.add(new QuestionModel("Đọc số sau: 325600608", "A. Ba trăm hai mươi lăm triệu sáu mươi nghìn sáu trăm linh tám", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám", "C. Ba trăm hai mươi lăm triệu sáu nghìn sáu trăm linh tám", "D. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm tám mươi", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám"));
     }
     private void setSeven() {
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("Số bốn mươi lăm nghìn ba trăm linh tám được viết là:", "A. 45307", "B. 45308", "C. 45380", "D. 45038", "B. 45308"));
+        list.add(new QuestionModel("Một cửa hàng trong hai ngày bán được 620 kg gạo. Hỏi trong 7 ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo? (Biết rằng số gạo mỗi ngày bán được là như nhau).", "A. 4340 kg", "B. 217 kg", "C. 434 kg", "D. 2170 kg", "D. 2170 kg"));
+        list.add(new QuestionModel("Số đo chiều cao của 5 học sinh lớp Năm lần lượt là: 148 cm; 146 cm ; 144 cm ; 142 cm; 140 cm. Hỏi trung bình số đo chiều cao của mỗi cm là bao nhiêu xăng-ti-mét?", "A. 144 cm", "B. 142 cm", "C. 145 cm", "D. 146 cm", "C. 145 cm"));
+        list.add(new QuestionModel("Số trung bình cộng của hai số bằng 40. Biết rằng một trong hai số đó bằng 58. Tìm số kia?", "A. 98", "B. 18", "C. 49", "D. 22", "A. 98"));
+        list.add(new QuestionModel("Một người đi xe máy trong 1/5 phút được 324 m. Hỏi trong một giây người ấy đi được bao nhiêu mét?", "A. 27 m", "B. 12 m", "C. 270 m", "D. 3888 m", "A. 27 m"));
+        list.add(new QuestionModel("Năm 1459 thuộc thế kỷ thứ mấy?", "A. XII", "B. XIII", "C. XIV", "D. XV", "C. XIV"));
+        list.add(new QuestionModel("Tìm x biết: 6 < x < 9 và x là số lẻ:", "A. 6", "B. 7", "C. 8", "D. 9", "B. 7"));
+        list.add(new QuestionModel("Số tự nhiên liền trước số 10001 là:", "A. 10011", "B. 10002", "C. 10021", "D. 10000", "D. 10000"));
+        list.add(new QuestionModel("Giá trị của chữ số 8 trong số sau: 45873246.", "A. 8 000", "B. 80 000", "C. 800 000", "D. 8 000 000", "C. 800 000"));
+        list.add(new QuestionModel("Đọc số sau: 325600608", "A. Ba trăm hai mươi lăm triệu sáu mươi nghìn sáu trăm linh tám", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám", "C. Ba trăm hai mươi lăm triệu sáu nghìn sáu trăm linh tám", "D. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm tám mươi", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám"));
     }
     private void setEight() {
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("Số bốn mươi lăm nghìn ba trăm linh tám được viết là:", "A. 45307", "B. 45308", "C. 45380", "D. 45038", "B. 45308"));
+        list.add(new QuestionModel("Một cửa hàng trong hai ngày bán được 620 kg gạo. Hỏi trong 7 ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo? (Biết rằng số gạo mỗi ngày bán được là như nhau).", "A. 4340 kg", "B. 217 kg", "C. 434 kg", "D. 2170 kg", "D. 2170 kg"));
+        list.add(new QuestionModel("Số đo chiều cao của 5 học sinh lớp Năm lần lượt là: 148 cm; 146 cm ; 144 cm ; 142 cm; 140 cm. Hỏi trung bình số đo chiều cao của mỗi cm là bao nhiêu xăng-ti-mét?", "A. 144 cm", "B. 142 cm", "C. 145 cm", "D. 146 cm", "C. 145 cm"));
+        list.add(new QuestionModel("Số trung bình cộng của hai số bằng 40. Biết rằng một trong hai số đó bằng 58. Tìm số kia?", "A. 98", "B. 18", "C. 49", "D. 22", "A. 98"));
+        list.add(new QuestionModel("Một người đi xe máy trong 1/5 phút được 324 m. Hỏi trong một giây người ấy đi được bao nhiêu mét?", "A. 27 m", "B. 12 m", "C. 270 m", "D. 3888 m", "A. 27 m"));
+        list.add(new QuestionModel("Năm 1459 thuộc thế kỷ thứ mấy?", "A. XII", "B. XIII", "C. XIV", "D. XV", "C. XIV"));
+        list.add(new QuestionModel("Tìm x biết: 6 < x < 9 và x là số lẻ:", "A. 6", "B. 7", "C. 8", "D. 9", "B. 7"));
+        list.add(new QuestionModel("Số tự nhiên liền trước số 10001 là:", "A. 10011", "B. 10002", "C. 10021", "D. 10000", "D. 10000"));
+        list.add(new QuestionModel("Giá trị của chữ số 8 trong số sau: 45873246.", "A. 8 000", "B. 80 000", "C. 800 000", "D. 8 000 000", "C. 800 000"));
+        list.add(new QuestionModel("Đọc số sau: 325600608", "A. Ba trăm hai mươi lăm triệu sáu mươi nghìn sáu trăm linh tám", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám", "C. Ba trăm hai mươi lăm triệu sáu nghìn sáu trăm linh tám", "D. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm tám mươi", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám"));
     }
     private void setNine() {
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("Số bốn mươi lăm nghìn ba trăm linh tám được viết là:", "A. 45307", "B. 45308", "C. 45380", "D. 45038", "B. 45308"));
+        list.add(new QuestionModel("Một cửa hàng trong hai ngày bán được 620 kg gạo. Hỏi trong 7 ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo? (Biết rằng số gạo mỗi ngày bán được là như nhau).", "A. 4340 kg", "B. 217 kg", "C. 434 kg", "D. 2170 kg", "D. 2170 kg"));
+        list.add(new QuestionModel("Số đo chiều cao của 5 học sinh lớp Năm lần lượt là: 148 cm; 146 cm ; 144 cm ; 142 cm; 140 cm. Hỏi trung bình số đo chiều cao của mỗi cm là bao nhiêu xăng-ti-mét?", "A. 144 cm", "B. 142 cm", "C. 145 cm", "D. 146 cm", "C. 145 cm"));
+        list.add(new QuestionModel("Số trung bình cộng của hai số bằng 40. Biết rằng một trong hai số đó bằng 58. Tìm số kia?", "A. 98", "B. 18", "C. 49", "D. 22", "A. 98"));
+        list.add(new QuestionModel("Một người đi xe máy trong 1/5 phút được 324 m. Hỏi trong một giây người ấy đi được bao nhiêu mét?", "A. 27 m", "B. 12 m", "C. 270 m", "D. 3888 m", "A. 27 m"));
+        list.add(new QuestionModel("Năm 1459 thuộc thế kỷ thứ mấy?", "A. XII", "B. XIII", "C. XIV", "D. XV", "C. XIV"));
+        list.add(new QuestionModel("Tìm x biết: 6 < x < 9 và x là số lẻ:", "A. 6", "B. 7", "C. 8", "D. 9", "B. 7"));
+        list.add(new QuestionModel("Số tự nhiên liền trước số 10001 là:", "A. 10011", "B. 10002", "C. 10021", "D. 10000", "D. 10000"));
+        list.add(new QuestionModel("Giá trị của chữ số 8 trong số sau: 45873246.", "A. 8 000", "B. 80 000", "C. 800 000", "D. 8 000 000", "C. 800 000"));
+        list.add(new QuestionModel("Đọc số sau: 325600608", "A. Ba trăm hai mươi lăm triệu sáu mươi nghìn sáu trăm linh tám", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám", "C. Ba trăm hai mươi lăm triệu sáu nghìn sáu trăm linh tám", "D. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm tám mươi", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám"));
     }
     private void setTen() {
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
-        list.add(new QuestionModel("", "A. ", "B. ", "C. ", "D. ", ""));
+        list.add(new QuestionModel("Số bốn mươi lăm nghìn ba trăm linh tám được viết là:", "A. 45307", "B. 45308", "C. 45380", "D. 45038", "B. 45308"));
+        list.add(new QuestionModel("Một cửa hàng trong hai ngày bán được 620 kg gạo. Hỏi trong 7 ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo? (Biết rằng số gạo mỗi ngày bán được là như nhau).", "A. 4340 kg", "B. 217 kg", "C. 434 kg", "D. 2170 kg", "D. 2170 kg"));
+        list.add(new QuestionModel("Số đo chiều cao của 5 học sinh lớp Năm lần lượt là: 148 cm; 146 cm ; 144 cm ; 142 cm; 140 cm. Hỏi trung bình số đo chiều cao của mỗi cm là bao nhiêu xăng-ti-mét?", "A. 144 cm", "B. 142 cm", "C. 145 cm", "D. 146 cm", "C. 145 cm"));
+        list.add(new QuestionModel("Số trung bình cộng của hai số bằng 40. Biết rằng một trong hai số đó bằng 58. Tìm số kia?", "A. 98", "B. 18", "C. 49", "D. 22", "A. 98"));
+        list.add(new QuestionModel("Một người đi xe máy trong 1/5 phút được 324 m. Hỏi trong một giây người ấy đi được bao nhiêu mét?", "A. 27 m", "B. 12 m", "C. 270 m", "D. 3888 m", "A. 27 m"));
+        list.add(new QuestionModel("Năm 1459 thuộc thế kỷ thứ mấy?", "A. XII", "B. XIII", "C. XIV", "D. XV", "C. XIV"));
+        list.add(new QuestionModel("Tìm x biết: 6 < x < 9 và x là số lẻ:", "A. 6", "B. 7", "C. 8", "D. 9", "B. 7"));
+        list.add(new QuestionModel("Số tự nhiên liền trước số 10001 là:", "A. 10011", "B. 10002", "C. 10021", "D. 10000", "D. 10000"));
+        list.add(new QuestionModel("Giá trị của chữ số 8 trong số sau: 45873246.", "A. 8 000", "B. 80 000", "C. 800 000", "D. 8 000 000", "C. 800 000"));
+        list.add(new QuestionModel("Đọc số sau: 325600608", "A. Ba trăm hai mươi lăm triệu sáu mươi nghìn sáu trăm linh tám", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám", "C. Ba trăm hai mươi lăm triệu sáu nghìn sáu trăm linh tám", "D. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm tám mươi", "B. Ba trăm hai mươi lăm triệu sáu trăm nghìn sáu trăm linh tám"));
     }
 
 }
