@@ -12,6 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BeHocToan"
         tools:targetApi="31">
+
+
         <activity
             android:name=".activities.QuestionFourActivity"
             android:exported="false" />
